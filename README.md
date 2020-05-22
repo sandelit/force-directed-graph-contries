@@ -1,2 +1,2 @@
-# force-directed-graph-contries
+# force-directed-graph-countries
 A force directed graph over countries
