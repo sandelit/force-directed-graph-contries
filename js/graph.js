@@ -1,8 +1,24 @@
 window.onresize = drawGraph();
-
+const svg = d3.select('svg');
 function drawGraph() {
+    const height = window.innerHeight * 0.8;
+    const width = window.innerWidth * 0.8;
+    const simulation = d3
+        .forceSimulation()
+        .force(
+            'link',
+            d3
+                .forceLink()
+                .id(function (d) {
+                    return d.name;
+                })
+                .distance(100)
+        )
+        .force('charge', d3.forceManyBody().strength(-1000))
+        .force('center', d3.forceCenter(width / 2, height / 2));
+
     drawSVG();
-    drawContinents();
+    drawContinents(simulation);
 }
 
 function drawSVG() {
@@ -17,22 +33,7 @@ function drawSVG() {
         .style('opacity', 0.3);
 }
 
-function drawContinents() {
-    const height = window.innerHeight * 0.8;
-    const width = window.innerWidth * 0.8;
-    const svg = d3.select('svg');
-
-    const simulation = d3
-        .forceSimulation()
-        .force(
-            'link',
-            d3.forceLink().id(function (d) {
-                return d.continent;
-            })
-        )
-        .force('charge', d3.forceManyBody())
-        .force('center', d3.forceCenter(width / 2, height / 2));
-
+function drawContinents(simulation) {
     d3.json('../js/continents.json', function (error, graph) {
         if (error) throw error;
 
@@ -43,10 +44,8 @@ function drawContinents() {
             .data(graph.links)
             .enter()
             .append('line')
-            .attr('stroke-width', 10)
-            //TODO: fixa så att links syns
-            // color blir black men dom syns inte av nån jävla anledning
-            .attr('fill', 'black');
+            .attr('stroke-width', 3)
+            .attr('stroke', 'black');
 
         const node = svg
             .append('g')
@@ -58,7 +57,7 @@ function drawContinents() {
 
         const circles = node
             .append('circle')
-            .attr('r', 5)
+            .attr('r', 25)
             .attr('fill', 'red')
             .call(
                 d3
@@ -71,13 +70,13 @@ function drawContinents() {
         const lables = node
             .append('text')
             .text(function (d) {
-                return d.id;
+                return d.abbreviation;
             })
-            .attr('x', 6)
-            .attr('y', 3);
+            .attr('text-anchor', 'middle')
+            .attr('dominant-baseline', 'middle');
 
         node.append('title').text(function (d) {
-            return d.continent;
+            return d.name;
         });
 
         simulation.nodes(graph.nodes).on('tick', ticked);

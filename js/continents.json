@@ -1,19 +1,57 @@
 {
     "nodes": [
-        { "continent": "Main" },
-        { "continent": "Africa" },
-        { "continent": "Asia" },
-        { "continent": "Europe" },
-        { "continent": "Oceania" },
-        { "continent": "North America" },
-        { "continent": "South America" }
+        {
+            "name": "Main"
+        },
+        {
+            "name": "North America",
+            "abbreviation": "NA"
+        },
+        {
+            "name": "Africa",
+            "abbreviation": "AF"
+        },
+        {
+            "name": "Oceania",
+            "abbreviation": "OC"
+        },
+        {
+            "name": "Asia",
+            "abbreviation": "AS"
+        },
+        {
+            "name": "Europe",
+            "abbreviation": "EU"
+        },
+        {
+            "name": "South America",
+            "abbreviation": "SA"
+        }
     ],
     "links": [
-        { "source": "Main", "target": "Africa" },
-        { "source": "Main", "target": "Asia" },
-        { "source": "Main", "target": "Europe" },
-        { "source": "Main", "target": "Oceania" },
-        { "source": "Main", "target": "North America" },
-        { "source": "Main", "target": "South America" }
+        {
+            "source": "Main",
+            "target": "Africa"
+        },
+        {
+            "source": "Main",
+            "target": "Asia"
+        },
+        {
+            "source": "Main",
+            "target": "Europe"
+        },
+        {
+            "source": "Main",
+            "target": "Oceania"
+        },
+        {
+            "source": "Main",
+            "target": "North America"
+        },
+        {
+            "source": "Main",
+            "target": "South America"
+        }
     ]
 }
