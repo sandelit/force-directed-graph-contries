@@ -1,8 +1,8 @@
 window.onresize = drawGraph();
 const svg = d3.select('svg');
 function drawGraph() {
-    const height = window.innerHeight * 0.8;
-    const width = window.innerWidth * 0.8;
+    const height = window.innerHeight * 0.85;
+    const width = window.innerWidth * 0.95;
     const simulation = d3
         .forceSimulation()
         .force(
@@ -14,7 +14,7 @@ function drawGraph() {
                 })
                 .distance(100)
         )
-        .force('charge', d3.forceManyBody().strength(-1000))
+        .force('charge', d3.forceManyBody().strength(-15))
         .force('center', d3.forceCenter(width / 2, height / 2));
 
     drawSVG();
@@ -22,8 +22,8 @@ function drawGraph() {
 }
 
 function drawSVG() {
-    const height = window.innerHeight * 0.8;
-    const width = window.innerWidth * 0.8;
+    const height = window.innerHeight * 0.85;
+    const width = window.innerWidth * 0.95;
 
     d3.select('#graphContainer')
         .append('svg')
@@ -34,7 +34,7 @@ function drawSVG() {
 }
 
 function drawContinents(simulation) {
-    d3.json('../js/continents.json', function (error, graph) {
+    d3.json('../js/data.json', function (error, graph) {
         if (error) throw error;
 
         const link = svg
@@ -70,7 +70,11 @@ function drawContinents(simulation) {
         const lables = node
             .append('text')
             .text(function (d) {
-                return d.abbreviation;
+                if (d.name === 'Main') {
+                    return '';
+                } else {
+                    return d.abbreviation;
+                }
             })
             .attr('text-anchor', 'middle')
             .attr('dominant-baseline', 'middle');

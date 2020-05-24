@@ -1,4437 +1,1071 @@
 {
-    "nodes": [
-        {
-            "name": "Main"
-        },
-        {
-            "name": "North America",
-            "abbreviation": "NA"
-        },
-        {
-            "name": "Africa",
-            "abbreviation": "AF"
-        },
-        {
-            "name": "Oceania",
-            "abbreviation": "OC"
-        },
-        {
-            "name": "Asia",
-            "abbreviation": "AS"
-        },
-        {
-            "name": "Europe",
-            "abbreviation": "EU"
-        },
-        {
-            "name": "South America",
-            "abbreviation": "SA"
-        },
-        {
-            "name": "Afghanistan",
-            "abbreviation": "AFG",
-            "population": 22720000
-        },
-        {
-            "name": "Albania",
-            "abbreviation": "ALB",
-            "population": 2878000
-        },
-        {
-            "name": "Algeria",
-            "abbreviation": "DZA",
-            "population": 31471000
-        },
-        {
-            "name": "Andorra",
-            "abbreviation": "AND",
-            "population": 78000
-        },
-        {
-            "name": "Angola",
-            "abbreviation": "AGO",
-            "population": 12878000
-        },
-        {
-            "name": "Antigua and Barbuda",
-            "abbreviation": "ATG",
-            "population": 68000
-        },
-        {
-            "name": "Argentina",
-            "abbreviation": "ARG",
-            "population": 37032000
-        },
-        {
-            "name": "Armenia",
-            "abbreviation": "ARM",
-            "population": 3520000
-        },
-        {
-            "name": "Australia",
-            "abbreviation": "AUS",
-            "population": 23840314
-        },
-        {
-            "name": "Austria",
-            "abbreviation": "AUT",
-            "population": 8091800
-        },
-        {
-            "name": "Azerbaijan",
-            "abbreviation": "AZE",
-            "population": 7734000
-        },
-        {
-            "name": "Bahamas",
-            "abbreviation": "BHS",
-            "population": 307000
-        },
-        {
-            "name": "Bahrain",
-            "abbreviation": "BHR",
-            "population": 617000
-        },
-        {
-            "name": "Bangladesh",
-            "abbreviation": "BGD",
-            "population": 129155000
-        },
-        {
-            "name": "Barbados",
-            "abbreviation": "BRB",
-            "population": 270000
-        },
-        {
-            "name": "Belarus",
-            "abbreviation": "BLR",
-            "population": 10236000
-        },
-        {
-            "name": "Belgium",
-            "abbreviation": "BEL",
-            "population": 10239000
-        },
-        {
-            "name": "Belize",
-            "abbreviation": "BLZ",
-            "population": 241000
-        },
-        {
-            "name": "Benin",
-            "abbreviation": "BEN",
-            "population": 6097000
-        },
-        {
-            "name": "Bhutan",
-            "abbreviation": "BTN",
-            "population": 2124000
-        },
-        {
-            "name": "Bolivia",
-            "abbreviation": "BOL",
-            "population": 8329000
-        },
-        {
-            "name": "Bosnia and Herzegovina",
-            "abbreviation": "BIH",
-            "population": 3972000
-        },
-        {
-            "name": "Botswana",
-            "abbreviation": "BWA",
-            "population": 1622000
-        },
-        {
-            "name": "Brazil",
-            "abbreviation": "BRA",
-            "population": 170115000
-        },
-        {
-            "name": "Brunei",
-            "abbreviation": "BRN",
-            "population": 328000
-        },
-        {
-            "name": "Bulgaria",
-            "abbreviation": "BGR",
-            "population": 8190900
-        },
-        {
-            "name": "Burkina Faso",
-            "abbreviation": "BFA",
-            "population": 11937000
-        },
-        {
-            "name": "Burundi",
-            "abbreviation": "BDI",
-            "population": 6695000
-        },
-        {
-            "name": "Cambodia",
-            "abbreviation": "KHM",
-            "population": 11168000
-        },
-        {
-            "name": "Cameroon",
-            "abbreviation": "CMR",
-            "population": 15085000
-        },
-        {
-            "name": "Canada",
-            "abbreviation": "CAN",
-            "population": 31147000
-        },
-        {
-            "name": "Cape Verde",
-            "abbreviation": "CPV",
-            "population": 428000
-        },
-        {
-            "name": "Central African Republic",
-            "abbreviation": "CAF",
-            "population": 3615000
-        },
-        {
-            "name": "Chad",
-            "abbreviation": "TCD",
-            "population": 7651000
-        },
-        {
-            "name": "Chile",
-            "abbreviation": "CHL",
-            "population": 15211000
-        },
-        {
-            "name": "China",
-            "abbreviation": "CHN",
-            "population": 1277558000
-        },
-        {
-            "name": "Colombia",
-            "abbreviation": "COL",
-            "population": 42321000
-        },
-        {
-            "name": "Comoros",
-            "abbreviation": "COM",
-            "population": 578000
-        },
-        {
-            "name": "Congo",
-            "abbreviation": "COG",
-            "population": 2943000
-        },
-        {
-            "name": "Costa Rica",
-            "abbreviation": "CRI",
-            "population": 4023000
-        },
-        {
-            "name": "Croatia",
-            "abbreviation": "HRV",
-            "population": 4473000
-        },
-        {
-            "name": "Cuba",
-            "abbreviation": "CUB",
-            "population": 11201000
-        },
-        {
-            "name": "Cyprus",
-            "abbreviation": "CYP",
-            "population": 754700
-        },
-        {
-            "name": "Czech Republic",
-            "abbreviation": "CZE",
-            "population": 10278100
-        },
-        {
-            "name": "Denmark",
-            "abbreviation": "DNK",
-            "population": 5330000
-        },
-        {
-            "name": "Djibouti",
-            "abbreviation": "DJI",
-            "population": 638000
-        },
-        {
-            "name": "Dominica",
-            "abbreviation": "DMA",
-            "population": 71000
-        },
-        {
-            "name": "Dominican Republic",
-            "abbreviation": "DOM",
-            "population": 8495000
-        },
-        {
-            "name": "Ecuador",
-            "abbreviation": "ECU",
-            "population": 12646000
-        },
-        {
-            "name": "Egypt",
-            "abbreviation": "EGY",
-            "population": 68470000
-        },
-        {
-            "name": "El Salvador",
-            "abbreviation": "SLV",
-            "population": 6276000
-        },
-        {
-            "name": "Equatorial Guinea",
-            "abbreviation": "GNQ",
-            "population": 453000
-        },
-        {
-            "name": "Eritrea",
-            "abbreviation": "ERI",
-            "population": 6250000
-        },
-        {
-            "name": "Estonia",
-            "abbreviation": "EST",
-            "population": 1439200
-        },
-        {
-            "name": "Ethiopia",
-            "abbreviation": "ETH",
-            "population": 78565000
-        },
-        {
-            "name": "Fiji Islands",
-            "abbreviation": "FJI",
-            "population": 817000
-        },
-        {
-            "name": "Finland",
-            "abbreviation": "FIN",
-            "population": 5171300
-        },
-        {
-            "name": "France",
-            "abbreviation": "FRA",
-            "population": 59225700
-        },
-        {
-            "name": "Gabon",
-            "abbreviation": "GAB",
-            "population": 1226000
-        },
-        {
-            "name": "Gambia",
-            "abbreviation": "GMB",
-            "population": 1305000
-        },
-        {
-            "name": "Georgia",
-            "abbreviation": "GEO",
-            "population": 4968000
-        },
-        {
-            "name": "Germany",
-            "abbreviation": "DEU",
-            "population": 82164700
-        },
-        {
-            "name": "Ghana",
-            "abbreviation": "GHA",
-            "population": 20212000
-        },
-        {
-            "name": "Greece",
-            "abbreviation": "GRC",
-            "population": 10545700
-        },
-        {
-            "name": "Grenada",
-            "abbreviation": "GRD",
-            "population": 94000
-        },
-        {
-            "name": "Guatemala",
-            "abbreviation": "GTM",
-            "population": 11385000
-        },
-        {
-            "name": "Guinea",
-            "abbreviation": "GIN",
-            "population": 7430000
-        },
-        {
-            "name": "Guinea-Bissau",
-            "abbreviation": "GNB",
-            "population": 1213000
-        },
-        {
-            "name": "Guyana",
-            "abbreviation": "GUY",
-            "population": 861000
-        },
-        {
-            "name": "Haiti",
-            "abbreviation": "HTI",
-            "population": 8222000
-        },
-        {
-            "name": "Holy See (Vatican City State)",
-            "abbreviation": "VAT",
-            "population": 1000
-        },
-        {
-            "name": "Honduras",
-            "abbreviation": "HND",
-            "population": 6485000
-        },
-        {
-            "name": "Hungary",
-            "abbreviation": "HUN",
-            "population": 10043200
-        },
-        {
-            "name": "Iceland",
-            "abbreviation": "ISL",
-            "population": 279000
-        },
-        {
-            "name": "India",
-            "abbreviation": "IND",
-            "population": 1013662000
-        },
-        {
-            "name": "Indonesia",
-            "abbreviation": "IDN",
-            "population": 237641326
-        },
-        {
-            "name": "Iran",
-            "abbreviation": "IRN",
-            "population": 67702000
-        },
-        {
-            "name": "Iraq",
-            "abbreviation": "IRQ",
-            "population": 23115000
-        },
-        {
-            "name": "Ireland",
-            "abbreviation": "IRL",
-            "population": 3775100
-        },
-        {
-            "name": "Israel",
-            "abbreviation": "ISR",
-            "population": 6217000
-        },
-        {
-            "name": "Italy",
-            "abbreviation": "ITA",
-            "population": 57680000
-        },
-        {
-            "name": "Ivory Coast",
-            "abbreviation": "CIV",
-            "population": 14786000
-        },
-        {
-            "name": "Jamaica",
-            "abbreviation": "JAM",
-            "population": 2583000
-        },
-        {
-            "name": "Japan",
-            "abbreviation": "JPN",
-            "population": 126714000
-        },
-        {
-            "name": "Jordan",
-            "abbreviation": "JOR",
-            "population": 5083000
-        },
-        {
-            "name": "Kazakhstan",
-            "abbreviation": "KAZ",
-            "population": 18776000
-        },
-        {
-            "name": "Kenya",
-            "abbreviation": "KEN",
-            "population": 30080000
-        },
-        {
-            "name": "Kiribati",
-            "abbreviation": "KIR",
-            "population": 83000
-        },
-        {
-            "name": "Kuwait",
-            "abbreviation": "KWT",
-            "population": 1972000
-        },
-        {
-            "name": "Kyrgyzstan",
-            "abbreviation": "KGZ",
-            "population": 4699000
-        },
-        {
-            "name": "Laos",
-            "abbreviation": "LAO",
-            "population": 5433000
-        },
-        {
-            "name": "Latvia",
-            "abbreviation": "LVA",
-            "population": 2424200
-        },
-        {
-            "name": "Lebanon",
-            "abbreviation": "LBN",
-            "population": 3282000
-        },
-        {
-            "name": "Lesotho",
-            "abbreviation": "LSO",
-            "population": 2153000
-        },
-        {
-            "name": "Liberia",
-            "abbreviation": "LBR",
-            "population": 3154000
-        },
-        {
-            "name": "Libya",
-            "abbreviation": "LBY",
-            "population": 5605000
-        },
-        {
-            "name": "Liechtenstein",
-            "abbreviation": "LIE",
-            "population": 32300
-        },
-        {
-            "name": "Lithuania",
-            "abbreviation": "LTU",
-            "population": 3698500
-        },
-        {
-            "name": "Luxembourg",
-            "abbreviation": "LUX",
-            "population": 435700
-        },
-        {
-            "name": "North Macedonia",
-            "abbreviation": "MKD",
-            "population": 2083000
-        },
-        {
-            "name": "Madagascar",
-            "abbreviation": "MDG",
-            "population": 15942000
-        },
-        {
-            "name": "Malawi",
-            "abbreviation": "MWI",
-            "population": 10925000
-        },
-        {
-            "name": "Malaysia",
-            "abbreviation": "MYS",
-            "population": 22244000
-        },
-        {
-            "name": "Maldives",
-            "abbreviation": "MDV",
-            "population": 286000
-        },
-        {
-            "name": "Mali",
-            "abbreviation": "MLI",
-            "population": 11234000
-        },
-        {
-            "name": "Malta",
-            "abbreviation": "MLT",
-            "population": 380200
-        },
-        {
-            "name": "Marshall Islands",
-            "abbreviation": "MHL",
-            "population": 64000
-        },
-        {
-            "name": "Mauritania",
-            "abbreviation": "MRT",
-            "population": 2670000
-        },
-        {
-            "name": "Mauritius",
-            "abbreviation": "MUS",
-            "population": 1158000
-        },
-        {
-            "name": "Mexico",
-            "abbreviation": "MEX",
-            "population": 98881000
-        },
-        {
-            "name": "Micronesia",
-            "abbreviation": "FSM",
-            "population": 119000
-        },
-        {
-            "name": "Moldova",
-            "abbreviation": "MDA",
-            "population": 4380000
-        },
-        {
-            "name": "Monaco",
-            "abbreviation": "MCO",
-            "population": 34000
-        },
-        {
-            "name": "Mongolia",
-            "abbreviation": "MNG",
-            "population": 2662000
-        },
-        {
-            "name": "Montenegro",
-            "abbreviation": "MNE",
-            "population": 628000
-        },
-        {
-            "name": "Morocco",
-            "abbreviation": "MAR",
-            "population": 28351000
-        },
-        {
-            "name": "Mozambique",
-            "abbreviation": "MOZ",
-            "population": 19680000
-        },
-        {
-            "name": "Myanmar",
-            "abbreviation": "MMR",
-            "population": 45611000
-        },
-        {
-            "name": "Namibia",
-            "abbreviation": "NAM",
-            "population": 1726000
-        },
-        {
-            "name": "Nauru",
-            "abbreviation": "NRU",
-            "population": 12000
-        },
-        {
-            "name": "Nepal",
-            "abbreviation": "NPL",
-            "population": 23930000
-        },
-        {
-            "name": "Netherlands",
-            "abbreviation": "NLD",
-            "population": 15864000
-        },
-        {
-            "name": "New Zealand",
-            "abbreviation": "NZL",
-            "population": 3862000
-        },
-        {
-            "name": "Nicaragua",
-            "abbreviation": "NIC",
-            "population": 5074000
-        },
-        {
-            "name": "Niger",
-            "abbreviation": "NER",
-            "population": 10730000
-        },
-        {
-            "name": "Nigeria",
-            "abbreviation": "NGA",
-            "population": 111506000
-        },
-        {
-            "name": "North Korea",
-            "abbreviation": "PRK",
-            "population": 24039000
-        },
-        {
-            "name": "Norway",
-            "abbreviation": "NOR",
-            "population": 4478500
-        },
-        {
-            "name": "Oman",
-            "abbreviation": "OMN",
-            "population": 2542000
-        },
-        {
-            "name": "Pakistan",
-            "abbreviation": "PAK",
-            "population": 156483000
-        },
-        {
-            "name": "Palau",
-            "abbreviation": "PLW",
-            "population": 19000
-        },
-        {
-            "name": "Palestine",
-            "abbreviation": "PSE",
-            "population": 3101000
-        },
-        {
-            "name": "Panama",
-            "abbreviation": "PAN",
-            "population": 2856000
-        },
-        {
-            "name": "Papua New Guinea",
-            "abbreviation": "PNG",
-            "population": 4807000
-        },
-        {
-            "name": "Paraguay",
-            "abbreviation": "PRY",
-            "population": 5496000
-        },
-        {
-            "name": "Peru",
-            "abbreviation": "PER",
-            "population": 25662000
-        },
-        {
-            "name": "Philippines",
-            "abbreviation": "PHL",
-            "population": 75967000
-        },
-        {
-            "name": "Poland",
-            "abbreviation": "POL",
-            "population": 38653600
-        },
-        {
-            "name": "Portugal",
-            "abbreviation": "PRT",
-            "population": 9997600
-        },
-        {
-            "name": "Qatar",
-            "abbreviation": "QAT",
-            "population": 599000
-        },
-        {
-            "name": "Romania",
-            "abbreviation": "ROU",
-            "population": 22455500
-        },
-        {
-            "name": "Russia",
-            "abbreviation": "RUS",
-            "population": 146934000
-        },
-        {
-            "name": "Rwanda",
-            "abbreviation": "RWA",
-            "population": 7733000
-        },
-        {
-            "name": "Saint Kitts and Nevis",
-            "abbreviation": "KNA",
-            "population": 38000
-        },
-        {
-            "name": "Saint Lucia",
-            "abbreviation": "LCA",
-            "population": 154000
-        },
-        {
-            "name": "Saint Vincent and the Grenadines",
-            "abbreviation": "VCT",
-            "population": 114000
-        },
-        {
-            "name": "Samoa",
-            "abbreviation": "WSM",
-            "population": 180000
-        },
-        {
-            "name": "San Marino",
-            "abbreviation": "SMR",
-            "population": 27000
-        },
-        {
-            "name": "Sao Tome and Principe",
-            "abbreviation": "STP",
-            "population": 147000
-        },
-        {
-            "name": "Saudi Arabia",
-            "abbreviation": "SAU",
-            "population": 21607000
-        },
-        {
-            "name": "Senegal",
-            "abbreviation": "SEN",
-            "population": 9481000
-        },
-        {
-            "name": "Seychelles",
-            "abbreviation": "SYC",
-            "population": 77000
-        },
-        {
-            "name": "Sierra Leone",
-            "abbreviation": "SLE",
-            "population": 4854000
-        },
-        {
-            "name": "Singapore",
-            "abbreviation": "SGP",
-            "population": 3567000
-        },
-        {
-            "name": "Slovakia",
-            "abbreviation": "SVK",
-            "population": 5398700
-        },
-        {
-            "name": "Slovenia",
-            "abbreviation": "SVN",
-            "population": 1987800
-        },
-        {
-            "name": "Solomon Islands",
-            "abbreviation": "SLB",
-            "population": 444000
-        },
-        {
-            "name": "Somalia",
-            "abbreviation": "SOM",
-            "population": 10097000
-        },
-        {
-            "name": "South Africa",
-            "abbreviation": "ZAF",
-            "population": 40377000
-        },
-        {
-            "name": "South Korea",
-            "abbreviation": "KOR",
-            "population": 46844000
-        },
-        {
-            "name": "South Sudan",
-            "abbreviation": "SSD",
-            "population": 12042910
-        },
-        {
-            "name": "Spain",
-            "abbreviation": "ESP",
-            "population": 39441700
-        },
-        {
-            "name": "Sri Lanka",
-            "abbreviation": "LKA",
-            "population": 18827000
-        },
-        {
-            "name": "Sudan",
-            "abbreviation": "SDN",
-            "population": 29490000
-        },
-        {
-            "name": "Suriname",
-            "abbreviation": "SUR",
-            "population": 417000
-        },
-        {
-            "name": "Eswatini",
-            "abbreviation": "SWZ",
-            "population": 1160000
-        },
-        {
-            "name": "Sweden",
-            "abbreviation": "SWE",
-            "population": 8861400
-        },
-        {
-            "name": "Switzerland",
-            "abbreviation": "CHE",
-            "population": 7160400
-        },
-        {
-            "name": "Syria",
-            "abbreviation": "SYR",
-            "population": 16125000
-        },
-        {
-            "name": "Taiwan",
-            "abbreviation": "TWN",
-            "population": 22256000
-        },
-        {
-            "name": "Tajikistan",
-            "abbreviation": "TJK",
-            "population": 6188000
-        },
-        {
-            "name": "Tanzania",
-            "abbreviation": "TZA",
-            "population": 33517000
-        },
-        {
-            "name": "Thailand",
-            "abbreviation": "THA",
-            "population": 61399000
-        },
-        {
-            "name": "The Democratic Republic of Congo",
-            "abbreviation": "COD",
-            "population": 89561000
-        },
-        {
-            "name": "Timor-Leste",
-            "abbreviation": "TLS",
-            "population": 1315000
-        },
-        {
-            "name": "Togo",
-            "abbreviation": "TGO",
-            "population": 4629000
-        },
-        {
-            "name": "Tonga",
-            "abbreviation": "TON",
-            "population": 99000
-        },
-        {
-            "name": "Trinidad and Tobago",
-            "abbreviation": "TTO",
-            "population": 1295000
-        },
-        {
-            "name": "Tunisia",
-            "abbreviation": "TUN",
-            "population": 9586000
-        },
-        {
-            "name": "Turkey",
-            "abbreviation": "TUR",
-            "population": 66591000
-        },
-        {
-            "name": "Turkmenistan",
-            "abbreviation": "TKM",
-            "population": 4459000
-        },
-        {
-            "name": "Tuvalu",
-            "abbreviation": "TUV",
-            "population": 12000
-        },
-        {
-            "name": "Uganda",
-            "abbreviation": "UGA",
-            "population": 21778000
-        },
-        {
-            "name": "Ukraine",
-            "abbreviation": "UKR",
-            "population": 50456000
-        },
-        {
-            "name": "United Arab Emirates",
-            "abbreviation": "ARE",
-            "population": 2441000
-        },
-        {
-            "name": "United Kingdom",
-            "abbreviation": "GBR",
-            "population": 59623400
-        },
-        {
-            "name": "United States of America",
-            "abbreviation": "USA",
-            "population": 278357000
-        },
-        {
-            "name": "Uruguay",
-            "abbreviation": "URY",
-            "population": 3337000
-        },
-        {
-            "name": "Uzbekistan",
-            "abbreviation": "UZB",
-            "population": 24318000
-        },
-        {
-            "name": "Vanuatu",
-            "abbreviation": "VUT",
-            "population": 190000
-        },
-        {
-            "name": "Venezuela",
-            "abbreviation": "VEN",
-            "population": 24170000
-        },
-        {
-            "name": "Vietnam",
-            "abbreviation": "VNM",
-            "population": 79832000
-        },
-        {
-            "name": "Yemen",
-            "abbreviation": "YEM",
-            "population": 18112000
-        },
-        {
-            "name": "Serbia",
-            "abbreviation": "SRB",
-            "population": 8963753
-        },
-        {
-            "name": "Zambia",
-            "abbreviation": "ZMB",
-            "population": 9169000
-        },
-        {
-            "name": "Zimbabwe",
-            "abbreviation": "ZWE",
-            "population": 11669000
-        }
+    "nodes":
+    [
+        {"name":"Main"},
+        {"name":"North America","abbreviation":"NA"},
+        {"name":"Africa","abbreviation":"AF"},
+        {"name":"Oceania","abbreviation":"OC"},
+        {"name":"Asia","abbreviation":"AS"},
+        {"name":"Europe","abbreviation":"EU"},
+        {"name":"South America","abbreviation":"SA"},
+        {"name":"Afghanistan","abbreviation":"AFG","population":22720000,"continent":"Asia"},
+        {"name":"Albania","abbreviation":"ALB","population":2878000,"continent":"Europe"},
+        {"name":"Algeria","abbreviation":"DZA","population":31471000,"continent":"Africa"},
+        {"name":"Andorra","abbreviation":"AND","population":78000,"continent":"Europe"},
+        {"name":"Angola","abbreviation":"AGO","population":12878000,"continent":"Africa"},
+        {"name":"Antigua and Barbuda","abbreviation":"ATG","population":68000,"continent":"North America"},
+        {"name":"Argentina","abbreviation":"ARG","population":37032000,"continent":"South America"},
+        {"name":"Armenia","abbreviation":"ARM","population":3520000,"continent":"Asia"},
+        {"name":"Australia","abbreviation":"AUS","population":23840314,"continent":"Oceania"},
+        {"name":"Austria","abbreviation":"AUT","population":8091800,"continent":"Europe"},
+        {"name":"Azerbaijan","abbreviation":"AZE","population":7734000,"continent":"Asia"},
+        {"name":"Bahamas","abbreviation":"BHS","population":307000,"continent":"North America"},
+        {"name":"Bahrain","abbreviation":"BHR","population":617000,"continent":"Asia"},
+        {"name":"Bangladesh","abbreviation":"BGD","population":129155000,"continent":"Asia"},
+        {"name":"Barbados","abbreviation":"BRB","population":270000,"continent":"North America"},
+        {"name":"Belarus","abbreviation":"BLR","population":10236000,"continent":"Europe"},
+        {"name":"Belgium","abbreviation":"BEL","population":10239000,"continent":"Europe"},
+        {"name":"Belize","abbreviation":"BLZ","population":241000,"continent":"North America"},
+        {"name":"Benin","abbreviation":"BEN","population":6097000,"continent":"Africa"},
+        {"name":"Bhutan","abbreviation":"BTN","population":2124000,"continent":"Asia"},
+        {"name":"Bolivia","abbreviation":"BOL","population":8329000,"continent":"South America"},
+        {"name":"Bosnia and Herzegovina","abbreviation":"BIH","population":3972000,"continent":"Europe"},
+        {"name":"Botswana","abbreviation":"BWA","population":1622000,"continent":"Africa"},
+        {"name":"Brazil","abbreviation":"BRA","population":170115000,"continent":"South America"},
+        {"name":"Brunei","abbreviation":"BRN","population":328000,"continent":"Asia"},
+        {"name":"Bulgaria","abbreviation":"BGR","population":8190900,"continent":"Europe"},
+        {"name":"Burkina Faso","abbreviation":"BFA","population":11937000,"continent":"Africa"},
+        {"name":"Burundi","abbreviation":"BDI","population":6695000,"continent":"Africa"},
+        {"name":"Cambodia","abbreviation":"KHM","population":11168000,"continent":"Asia"},
+        {"name":"Cameroon","abbreviation":"CMR","population":15085000,"continent":"Africa"},
+        {"name":"Canada","abbreviation":"CAN","population":31147000,"continent":"North America"},
+        {"name":"Cape Verde","abbreviation":"CPV","population":428000,"continent":"Africa"},
+        {"name":"Central African Republic","abbreviation":"CAF","population":3615000,"continent":"Africa"},
+        {"name":"Chad","abbreviation":"TCD","population":7651000,"continent":"Africa"},
+        {"name":"Chile","abbreviation":"CHL","population":15211000,"continent":"South America"},
+        {"name":"China","abbreviation":"CHN","population":1277558000,"continent":"Asia"},
+        {"name":"Colombia","abbreviation":"COL","population":42321000,"continent":"South America"},
+        {"name":"Comoros","abbreviation":"COM","population":578000,"continent":"Africa"},
+        {"name":"Congo","abbreviation":"COG","population":2943000,"continent":"Africa"},
+        {"name":"Costa Rica","abbreviation":"CRI","population":4023000,"continent":"North America"},
+        {"name":"Croatia","abbreviation":"HRV","population":4473000,"continent":"Europe"},
+        {"name":"Cuba","abbreviation":"CUB","population":11201000,"continent":"North America"},
+        {"name":"Cyprus","abbreviation":"CYP","population":754700,"continent":"Asia"},
+        {"name":"Czech Republic","abbreviation":"CZE","population":10278100,"continent":"Europe"},
+        {"name":"Denmark","abbreviation":"DNK","population":5330000,"continent":"Europe"},
+        {"name":"Djibouti","abbreviation":"DJI","population":638000,"continent":"Africa"},
+        {"name":"Dominica","abbreviation":"DMA","population":71000,"continent":"North America"},
+        {"name":"Dominican Republic","abbreviation":"DOM","population":8495000,"continent":"North America"},
+        {"name":"Ecuador","abbreviation":"ECU","population":12646000,"continent":"South America"},
+        {"name":"Egypt","abbreviation":"EGY","population":68470000,"continent":"Africa"},
+        {"name":"El Salvador","abbreviation":"SLV","population":6276000,"continent":"North America"},
+        {"name":"Equatorial Guinea","abbreviation":"GNQ","population":453000,"continent":"Africa"},
+        {"name":"Eritrea","abbreviation":"ERI","population":6250000,"continent":"Africa"},
+        {"name":"Estonia","abbreviation":"EST","population":1439200,"continent":"Europe"},
+        {"name":"Ethiopia","abbreviation":"ETH","population":78565000,"continent":"Africa"},
+        {"name":"Fiji Islands","abbreviation":"FJI","population":817000,"continent":"Oceania"},
+        {"name":"Finland","abbreviation":"FIN","population":5171300,"continent":"Europe"},
+        {"name":"France","abbreviation":"FRA","population":59225700,"continent":"Europe"},
+        {"name":"Gabon","abbreviation":"GAB","population":1226000,"continent":"Africa"},
+        {"name":"Gambia","abbreviation":"GMB","population":1305000,"continent":"Africa"},
+        {"name":"Georgia","abbreviation":"GEO","population":4968000,"continent":"Asia"},
+        {"name":"Germany","abbreviation":"DEU","population":82164700,"continent":"Europe"},
+        {"name":"Ghana","abbreviation":"GHA","population":20212000,"continent":"Africa"},
+        {"name":"Greece","abbreviation":"GRC","population":10545700,"continent":"Europe"},
+        {"name":"Grenada","abbreviation":"GRD","population":94000,"continent":"North America"},
+        {"name":"Guatemala","abbreviation":"GTM","population":11385000,"continent":"North America"},
+        {"name":"Guinea","abbreviation":"GIN","population":7430000,"continent":"Africa"},
+        {"name":"Guinea-Bissau","abbreviation":"GNB","population":1213000,"continent":"Africa"},
+        {"name":"Guyana","abbreviation":"GUY","population":861000,"continent":"South America"},
+        {"name":"Haiti","abbreviation":"HTI","population":8222000,"continent":"North America"},
+        {"name":"Holy See (Vatican City State)","abbreviation":"VAT","population":1000,"continent":"Europe"},
+        {"name":"Honduras","abbreviation":"HND","population":6485000,"continent":"North America"},
+        {"name":"Hungary","abbreviation":"HUN","population":10043200,"continent":"Europe"},
+        {"name":"Iceland","abbreviation":"ISL","population":279000,"continent":"Europe"},
+        {"name":"India","abbreviation":"IND","population":1013662000,"continent":"Asia"},
+        {"name":"Indonesia","abbreviation":"IDN","population":237641326,"continent":"Asia"},
+        {"name":"Iran","abbreviation":"IRN","population":67702000,"continent":"Asia"},
+        {"name":"Iraq","abbreviation":"IRQ","population":23115000,"continent":"Asia"},
+        {"name":"Ireland","abbreviation":"IRL","population":3775100,"continent":"Europe"},
+        {"name":"Israel","abbreviation":"ISR","population":6217000,"continent":"Asia"},
+        {"name":"Italy","abbreviation":"ITA","population":57680000,"continent":"Europe"},
+        {"name":"Ivory Coast","abbreviation":"CIV","population":14786000,"continent":"Africa"},
+        {"name":"Jamaica","abbreviation":"JAM","population":2583000,"continent":"North America"},
+        {"name":"Japan","abbreviation":"JPN","population":126714000,"continent":"Asia"},
+        {"name":"Jordan","abbreviation":"JOR","population":5083000,"continent":"Asia"},
+        {"name":"Kazakhstan","abbreviation":"KAZ","population":18776000,"continent":"Asia"},
+        {"name":"Kenya","abbreviation":"KEN","population":30080000,"continent":"Africa"},
+        {"name":"Kiribati","abbreviation":"KIR","population":83000,"continent":"Oceania"},
+        {"name":"Kuwait","abbreviation":"KWT","population":1972000,"continent":"Asia"},
+        {"name":"Kyrgyzstan","abbreviation":"KGZ","population":4699000,"continent":"Asia"},
+        {"name":"Laos","abbreviation":"LAO","population":5433000,"continent":"Asia"},
+        {"name":"Latvia","abbreviation":"LVA","population":2424200,"continent":"Europe"},
+        {"name":"Lebanon","abbreviation":"LBN","population":3282000,"continent":"Asia"},
+        {"name":"Lesotho","abbreviation":"LSO","population":2153000,"continent":"Africa"},
+        {"name":"Liberia","abbreviation":"LBR","population":3154000,"continent":"Africa"},
+        {"name":"Libya","abbreviation":"LBY","population":5605000,"continent":"Africa"},
+        {"name":"Liechtenstein","abbreviation":"LIE","population":32300,"continent":"Europe"},
+        {"name":"Lithuania","abbreviation":"LTU","population":3698500,"continent":"Europe"},
+        {"name":"Luxembourg","abbreviation":"LUX","population":435700,"continent":"Europe"},
+        {"name":"North Macedonia","abbreviation":"MKD","population":2083000,"continent":"Europe"},
+        {"name":"Madagascar","abbreviation":"MDG","population":15942000,"continent":"Africa"},
+        {"name":"Malawi","abbreviation":"MWI","population":10925000,"continent":"Africa"},
+        {"name":"Malaysia","abbreviation":"MYS","population":22244000,"continent":"Asia"},
+        {"name":"Maldives","abbreviation":"MDV","population":286000,"continent":"Asia"},
+        {"name":"Mali","abbreviation":"MLI","population":11234000,"continent":"Africa"},
+        {"name":"Malta","abbreviation":"MLT","population":380200,"continent":"Europe"},
+        {"name":"Marshall Islands","abbreviation":"MHL","population":64000,"continent":"Oceania"},
+        {"name":"Mauritania","abbreviation":"MRT","population":2670000,"continent":"Africa"},
+        {"name":"Mauritius","abbreviation":"MUS","population":1158000,"continent":"Africa"},
+        {"name":"Mexico","abbreviation":"MEX","population":98881000,"continent":"North America"},
+        {"name":"Micronesia","abbreviation":"FSM","population":119000,"continent":"Oceania"},
+        {"name":"Moldova","abbreviation":"MDA","population":4380000,"continent":"Europe"},
+        {"name":"Monaco","abbreviation":"MCO","population":34000,"continent":"Europe"},
+        {"name":"Mongolia","abbreviation":"MNG","population":2662000,"continent":"Asia"},
+        {"name":"Montenegro","abbreviation":"MNE","population":628000,"continent":"Europe"},
+        {"name":"Morocco","abbreviation":"MAR","population":28351000,"continent":"Africa"},
+        {"name":"Mozambique","abbreviation":"MOZ","population":19680000,"continent":"Africa"},
+        {"name":"Myanmar","abbreviation":"MMR","population":45611000,"continent":"Asia"},
+        {"name":"Namibia","abbreviation":"NAM","population":1726000,"continent":"Africa"},
+        {"name":"Nauru","abbreviation":"NRU","population":12000,"continent":"Oceania"},
+        {"name":"Nepal","abbreviation":"NPL","population":23930000,"continent":"Asia"},
+        {"name":"Netherlands","abbreviation":"NLD","population":15864000,"continent":"Europe"},
+        {"name":"New Zealand","abbreviation":"NZL","population":3862000,"continent":"Oceania"},
+        {"name":"Nicaragua","abbreviation":"NIC","population":5074000,"continent":"North America"},
+        {"name":"Niger","abbreviation":"NER","population":10730000,"continent":"Africa"},
+        {"name":"Nigeria","abbreviation":"NGA","population":111506000,"continent":"Africa"},
+        {"name":"North Korea","abbreviation":"PRK","population":24039000,"continent":"Asia"},
+        {"name":"Norway","abbreviation":"NOR","population":4478500,"continent":"Europe"},
+        {"name":"Oman","abbreviation":"OMN","population":2542000,"continent":"Asia"},
+        {"name":"Pakistan","abbreviation":"PAK","population":156483000,"continent":"Asia"},
+        {"name":"Palau","abbreviation":"PLW","population":19000,"continent":"Oceania"},
+        {"name":"Palestine","abbreviation":"PSE","population":3101000,"continent":"Asia"},
+        {"name":"Panama","abbreviation":"PAN","population":2856000,"continent":"North America"},
+        {"name":"Papua New Guinea","abbreviation":"PNG","population":4807000,"continent":"Oceania"},
+        {"name":"Paraguay","abbreviation":"PRY","population":5496000,"continent":"South America"},
+        {"name":"Peru","abbreviation":"PER","population":25662000,"continent":"South America"},
+        {"name":"Philippines","abbreviation":"PHL","population":75967000,"continent":"Asia"},
+        {"name":"Poland","abbreviation":"POL","population":38653600,"continent":"Europe"},
+        {"name":"Portugal","abbreviation":"PRT","population":9997600,"continent":"Europe"},
+        {"name":"Qatar","abbreviation":"QAT","population":599000,"continent":"Asia"},
+        {"name":"Romania","abbreviation":"ROU","population":22455500,"continent":"Europe"},
+        {"name":"Russia","abbreviation":"RUS","population":146934000,"continent":"Europe"},
+        {"name":"Rwanda","abbreviation":"RWA","population":7733000,"continent":"Africa"},
+        {"name":"Saint Kitts and Nevis","abbreviation":"KNA","population":38000,"continent":"North America"},
+        {"name":"Saint Lucia","abbreviation":"LCA","population":154000,"continent":"North America"},
+        {"name":"Saint Vincent and the Grenadines","abbreviation":"VCT","population":114000,"continent":"North America"},
+        {"name":"Samoa","abbreviation":"WSM","population":180000,"continent":"Oceania"},
+        {"name":"San Marino","abbreviation":"SMR","population":27000,"continent":"Europe"},
+        {"name":"Sao Tome and Principe","abbreviation":"STP","population":147000,"continent":"Africa"},
+        {"name":"Saudi Arabia","abbreviation":"SAU","population":21607000,"continent":"Asia"},
+        {"name":"Senegal","abbreviation":"SEN","population":9481000,"continent":"Africa"},
+        {"name":"Seychelles","abbreviation":"SYC","population":77000,"continent":"Africa"},
+        {"name":"Sierra Leone","abbreviation":"SLE","population":4854000,"continent":"Africa"},
+        {"name":"Singapore","abbreviation":"SGP","population":3567000,"continent":"Asia"},
+        {"name":"Slovakia","abbreviation":"SVK","population":5398700,"continent":"Europe"},
+        {"name":"Slovenia","abbreviation":"SVN","population":1987800,"continent":"Europe"},
+        {"name":"Solomon Islands","abbreviation":"SLB","population":444000,"continent":"Oceania"},
+        {"name":"Somalia","abbreviation":"SOM","population":10097000,"continent":"Africa"},
+        {"name":"South Africa","abbreviation":"ZAF","population":40377000,"continent":"Africa"},
+        {"name":"South Korea","abbreviation":"KOR","population":46844000,"continent":"Asia"},
+        {"name":"South Sudan","abbreviation":"SSD","population":12042910,"continent":"Africa"},
+        {"name":"Spain","abbreviation":"ESP","population":39441700,"continent":"Europe"},
+        {"name":"Sri Lanka","abbreviation":"LKA","population":18827000,"continent":"Asia"},
+        {"name":"Sudan","abbreviation":"SDN","population":29490000,"continent":"Africa"},
+        {"name":"Suriname","abbreviation":"SUR","population":417000,"continent":"South America"},
+        {"name":"Eswatini","abbreviation":"SWZ","population":1160000,"continent":"Africa"},
+        {"name":"Sweden","abbreviation":"SWE","population":8861400,"continent":"Europe"},
+        {"name":"Switzerland","abbreviation":"CHE","population":7160400,"continent":"Europe"},
+        {"name":"Syria","abbreviation":"SYR","population":16125000,"continent":"Asia"},
+        {"name":"Taiwan","abbreviation":"TWN","population":22256000,"continent":"Asia"},
+        {"name":"Tajikistan","abbreviation":"TJK","population":6188000,"continent":"Asia"},
+        {"name":"Tanzania","abbreviation":"TZA","population":33517000,"continent":"Africa"},
+        {"name":"Thailand","abbreviation":"THA","population":61399000,"continent":"Asia"},
+        {"name":"Democratic Republic of the Congo","abbreviation":"COD","population":89561000,"continent":"Africa"},
+        {"name":"Timor-Leste","abbreviation":"TLS","population":1315000,"continent":"Africa"},
+        {"name":"Togo","abbreviation":"TGO","population":4629000,"continent":"Africa"},
+        {"name":"Tonga","abbreviation":"TON","population":99000,"continent":"Oceania"},
+        {"name":"Trinidad and Tobago","abbreviation":"TTO","population":1295000,"continent":"North America"},
+        {"name":"Tunisia","abbreviation":"TUN","population":9586000,"continent":"Africa"},
+        {"name":"Turkey","abbreviation":"TUR","population":66591000,"continent":"Asia"},
+        {"name":"Turkmenistan","abbreviation":"TKM","population":4459000,"continent":"Asia"},
+        {"name":"Tuvalu","abbreviation":"TUV","population":12000,"continent":"Oceania"},
+        {"name":"Uganda","abbreviation":"UGA","population":21778000,"continent":"Africa"},
+        {"name":"Ukraine","abbreviation":"UKR","population":50456000,"continent":"Europe"},
+        {"name":"United Arab Emirates","abbreviation":"ARE","population":2441000,"continent":"Asia"},
+        {"name":"United Kingdom","abbreviation":"GBR","population":59623400,"continent":"Europe"},
+        {"name":"United States of America","abbreviation":"USA","population":278357000,"continent":"North America"},
+        {"name":"Uruguay","abbreviation":"URY","population":3337000,"continent":"South America"},
+        {"name":"Uzbekistan","abbreviation":"UZB","population":24318000,"continent":"Asia"},
+        {"name":"Vanuatu","abbreviation":"VUT","population":190000,"continent":"Oceania"},
+        {"name":"Venezuela","abbreviation":"VEN","population":24170000,"continent":"South America"},
+        {"name":"Vietnam","abbreviation":"VNM","population":79832000,"continent":"Asia"},
+        {"name":"Yemen","abbreviation":"YEM","population":18112000,"continent":"Asia"},
+        {"name":"Serbia","abbreviation":"SRB","population":8963753,"continent":"Europe"},
+        {"name":"Zambia","abbreviation":"ZMB","population":9169000,"continent":"Africa"},
+        {"name":"Zimbabwe","abbreviation":"ZWE","population":11669000,"continent":"Africa"}
     ],
-    "links": [
-        {
-            "source": "Main",
-            "target": "Africa"
-        },
-        {
-            "source": "Main",
-            "target": "Asia"
-        },
-        {
-            "source": "Main",
-            "target": "Europe"
-        },
-        {
-            "source": "Main",
-            "target": "Oceania"
-        },
-        {
-            "source": "Main",
-            "target": "North America"
-        },
-        {
-            "source": "Main",
-            "target": "South America"
-        },
-        {
-            "source": "Afghanistan",
-            "target": "China"
-        },
-        {
-            "source": "Afghanistan",
-            "target": "Iran"
-        },
-        {
-            "source": "Afghanistan",
-            "target": "Pakistan"
-        },
-        {
-            "source": "Afghanistan",
-            "target": "Tajikistan"
-        },
-        {
-            "source": "Afghanistan",
-            "target": "Turkmenistan"
-        },
-        {
-            "source": "Afghanistan",
-            "target": "Uzbekistan"
-        },
-        {
-            "source": "Albania",
-            "target": "Greece"
-        },
-        {
-            "source": "Albania",
-            "target": "North Macedonia"
-        },
-        {
-            "source": "Albania",
-            "target": "Montenegro"
-        },
-        {
-            "source": "Albania",
-            "target": "Serbia"
-        },
-        {
-            "source": "Algeria",
-            "target": "Libya"
-        },
-        {
-            "source": "Algeria",
-            "target": "Mali"
-        },
-        {
-            "source": "Algeria",
-            "target": "Mauritania"
-        },
-        {
-            "source": "Algeria",
-            "target": "Morocco"
-        },
-        {
-            "source": "Algeria",
-            "target": "Niger"
-        },
-        {
-            "source": "Algeria",
-            "target": "Tunisia"
-        },
-        {
-            "source": "Andorra",
-            "target": "France"
-        },
-        {
-            "source": "Andorra",
-            "target": "Spain"
-        },
-        {
-            "source": "Angola",
-            "target": "Congo"
-        },
-        {
-            "source": "Angola",
-            "target": "The Democratic Republic of Congo"
-        },
-        {
-            "source": "Angola",
-            "target": "Namibia"
-        },
-        {
-            "source": "Angola",
-            "target": "Zambia"
-        },
-        {
-            "source": "Argentina",
-            "target": "Bolivia"
-        },
-        {
-            "source": "Argentina",
-            "target": "Brazil"
-        },
-        {
-            "source": "Argentina",
-            "target": "Chile"
-        },
-        {
-            "source": "Argentina",
-            "target": "Paraguay"
-        },
-        {
-            "source": "Argentina",
-            "target": "Uruguay"
-        },
-        {
-            "source": "Armenia",
-            "target": "Azerbaijan"
-        },
-        {
-            "source": "Armenia",
-            "target": "Georgia"
-        },
-        {
-            "source": "Armenia",
-            "target": "Iran"
-        },
-        {
-            "source": "Armenia",
-            "target": "Turkey"
-        },
-        {
-            "source": "Australia",
-            "target": "Papua New Guinea"
-        },
-        {
-            "source": "Austria",
-            "target": "Czech Republic"
-        },
-        {
-            "source": "Austria",
-            "target": "Germany"
-        },
-        {
-            "source": "Austria",
-            "target": "Hungary"
-        },
-        {
-            "source": "Austria",
-            "target": "Italy"
-        },
-        {
-            "source": "Austria",
-            "target": "Liechtenstein"
-        },
-        {
-            "source": "Austria",
-            "target": "Slovakia"
-        },
-        {
-            "source": "Austria",
-            "target": "Slovenia"
-        },
-        {
-            "source": "Austria",
-            "target": "Switzerland"
-        },
-        {
-            "source": "Azerbaijan",
-            "target": "Armenia"
-        },
-        {
-            "source": "Azerbaijan",
-            "target": "Georgia"
-        },
-        {
-            "source": "Azerbaijan",
-            "target": "Iran"
-        },
-        {
-            "source": "Azerbaijan",
-            "target": "Russia"
-        },
-        {
-            "source": "Azerbaijan",
-            "target": "Turkey"
-        },
-        {
-            "source": "Bahrain",
-            "target": "Qatar"
-        },
-        {
-            "source": "Bahrain",
-            "target": "Saudi Arabia"
-        },
-        {
-            "source": "Bangladesh",
-            "target": "India"
-        },
-        {
-            "source": "Bangladesh",
-            "target": "Myanmar"
-        },
-        {
-            "source": "Belarus",
-            "target": "Latvia"
-        },
-        {
-            "source": "Belarus",
-            "target": "Lithuania"
-        },
-        {
-            "source": "Belarus",
-            "target": "Poland"
-        },
-        {
-            "source": "Belarus",
-            "target": "Russia"
-        },
-        {
-            "source": "Belarus",
-            "target": "Ukraine"
-        },
-        {
-            "source": "Belgium",
-            "target": "France"
-        },
-        {
-            "source": "Belgium",
-            "target": "Germany"
-        },
-        {
-            "source": "Belgium",
-            "target": "Luxembourg"
-        },
-        {
-            "source": "Belgium",
-            "target": "Netherlands"
-        },
-        {
-            "source": "Belize",
-            "target": "Guatemala"
-        },
-        {
-            "source": "Belize",
-            "target": "Mexico"
-        },
-        {
-            "source": "Benin",
-            "target": "Burkina Faso"
-        },
-        {
-            "source": "Benin",
-            "target": "Niger"
-        },
-        {
-            "source": "Benin",
-            "target": "Nigeria"
-        },
-        {
-            "source": "Benin",
-            "target": "Togo"
-        },
-        {
-            "source": "Bhutan",
-            "target": "China"
-        },
-        {
-            "source": "Bhutan",
-            "target": "India"
-        },
-        {
-            "source": "Bolivia",
-            "target": "Argentina"
-        },
-        {
-            "source": "Bolivia",
-            "target": "Brazil"
-        },
-        {
-            "source": "Bolivia",
-            "target": "Chile"
-        },
-        {
-            "source": "Bolivia",
-            "target": "Paraguay"
-        },
-        {
-            "source": "Bolivia",
-            "target": "Peru"
-        },
-        {
-            "source": "Bosnia and Herzegovina",
-            "target": "Croatia"
-        },
-        {
-            "source": "Bosnia and Herzegovina",
-            "target": "Montenegro"
-        },
-        {
-            "source": "Bosnia and Herzegovina",
-            "target": "Serbia"
-        },
-        {
-            "source": "Botswana",
-            "target": "Namibia"
-        },
-        {
-            "source": "Botswana",
-            "target": "South Africa"
-        },
-        {
-            "source": "Botswana",
-            "target": "Zambia"
-        },
-        {
-            "source": "Botswana",
-            "target": "Zimbabwe"
-        },
-        {
-            "source": "Brazil",
-            "target": "Argentina"
-        },
-        {
-            "source": "Brazil",
-            "target": "Bolivia"
-        },
-        {
-            "source": "Brazil",
-            "target": "Colombia"
-        },
-        {
-            "source": "Brazil",
-            "target": "Guyana"
-        },
-        {
-            "source": "Brazil",
-            "target": "Paraguay"
-        },
-        {
-            "source": "Brazil",
-            "target": "Peru"
-        },
-        {
-            "source": "Brazil",
-            "target": "Suriname"
-        },
-        {
-            "source": "Brazil",
-            "target": "Uruguay"
-        },
-        {
-            "source": "Brazil",
-            "target": "Venezuela"
-        },
-        {
-            "source": "Brunei",
-            "target": "Malaysia"
-        },
-        {
-            "source": "Bulgaria",
-            "target": "Greece"
-        },
-        {
-            "source": "Bulgaria",
-            "target": "North Macedonia"
-        },
-        {
-            "source": "Bulgaria",
-            "target": "Romania"
-        },
-        {
-            "source": "Bulgaria",
-            "target": "Turkey"
-        },
-        {
-            "source": "Bulgaria",
-            "target": "Serbia"
-        },
-        {
-            "source": "Burkina Faso",
-            "target": "Benin"
-        },
-        {
-            "source": "Burkina Faso",
-            "target": "Ghana"
-        },
-        {
-            "source": "Burkina Faso",
-            "target": "Ivory Coast"
-        },
-        {
-            "source": "Burkina Faso",
-            "target": "Mali"
-        },
-        {
-            "source": "Burkina Faso",
-            "target": "Niger"
-        },
-        {
-            "source": "Burkina Faso",
-            "target": "Togo"
-        },
-        {
-            "source": "Burundi",
-            "target": "The Democratic Republic of Congo"
-        },
-        {
-            "source": "Burundi",
-            "target": "Rwanda"
-        },
-        {
-            "source": "Burundi",
-            "target": "Tanzania"
-        },
-        {
-            "source": "Cambodia",
-            "target": "Laos"
-        },
-        {
-            "source": "Cambodia",
-            "target": "Thailand"
-        },
-        {
-            "source": "Cambodia",
-            "target": "Vietnam"
-        },
-        {
-            "source": "Cameroon",
-            "target": "Central African Republic"
-        },
-        {
-            "source": "Cameroon",
-            "target": "Chad"
-        },
-        {
-            "source": "Cameroon",
-            "target": "Congo"
-        },
-        {
-            "source": "Cameroon",
-            "target": "Equatorial Guinea"
-        },
-        {
-            "source": "Cameroon",
-            "target": "Gabon"
-        },
-        {
-            "source": "Cameroon",
-            "target": "Nigeria"
-        },
-        {
-            "source": "Canada",
-            "target": "United States of America"
-        },
-        {
-            "source": "Central African Republic",
-            "target": "Cameroon"
-        },
-        {
-            "source": "Central African Republic",
-            "target": "Chad"
-        },
-        {
-            "source": "Central African Republic",
-            "target": "Congo"
-        },
-        {
-            "source": "Central African Republic",
-            "target": "The Democratic Republic of Congo"
-        },
-        {
-            "source": "Central African Republic",
-            "target": "Sudan"
-        },
-        {
-            "source": "Chad",
-            "target": "Cameroon"
-        },
-        {
-            "source": "Chad",
-            "target": "Central African Republic"
-        },
-        {
-            "source": "Chad",
-            "target": "Libya"
-        },
-        {
-            "source": "Chad",
-            "target": "Niger"
-        },
-        {
-            "source": "Chad",
-            "target": "Nigeria"
-        },
-        {
-            "source": "Chad",
-            "target": "Sudan"
-        },
-        {
-            "source": "Chile",
-            "target": "Argentina"
-        },
-        {
-            "source": "Chile",
-            "target": "Bolivia"
-        },
-        {
-            "source": "Chile",
-            "target": "Peru"
-        },
-        {
-            "source": "China",
-            "target": "Afghanistan"
-        },
-        {
-            "source": "China",
-            "target": "Bhutan"
-        },
-        {
-            "source": "China",
-            "target": "India"
-        },
-        {
-            "source": "China",
-            "target": "Kazakhstan"
-        },
-        {
-            "source": "China",
-            "target": "Kyrgyzstan"
-        },
-        {
-            "source": "China",
-            "target": "Laos"
-        },
-        {
-            "source": "China",
-            "target": "Mongolia"
-        },
-        {
-            "source": "China",
-            "target": "Myanmar"
-        },
-        {
-            "source": "China",
-            "target": "Nepal"
-        },
-        {
-            "source": "China",
-            "target": "North Korea"
-        },
-        {
-            "source": "China",
-            "target": "Pakistan"
-        },
-        {
-            "source": "China",
-            "target": "Russia"
-        },
-        {
-            "source": "China",
-            "target": "Taiwan"
-        },
-        {
-            "source": "China",
-            "target": "Tajikistan"
-        },
-        {
-            "source": "China",
-            "target": "Vietnam"
-        },
-        {
-            "source": "Colombia",
-            "target": "Brazil"
-        },
-        {
-            "source": "Colombia",
-            "target": "Ecuador"
-        },
-        {
-            "source": "Colombia",
-            "target": "Panama"
-        },
-        {
-            "source": "Colombia",
-            "target": "Peru"
-        },
-        {
-            "source": "Colombia",
-            "target": "Venezuela"
-        },
-        {
-            "source": "Congo",
-            "target": "Angola"
-        },
-        {
-            "source": "Congo",
-            "target": "Cameroon"
-        },
-        {
-            "source": "Congo",
-            "target": "Central African Republic"
-        },
-        {
-            "source": "Congo",
-            "target": "The Democratic Republic of Congo"
-        },
-        {
-            "source": "Congo",
-            "target": "Gabon"
-        },
-        {
-            "source": "Costa Rica",
-            "target": "Nicaragua"
-        },
-        {
-            "source": "Costa Rica",
-            "target": "Panama"
-        },
-        {
-            "source": "Croatia",
-            "target": "Bosnia and Herzegovina"
-        },
-        {
-            "source": "Croatia",
-            "target": "Hungary"
-        },
-        {
-            "source": "Croatia",
-            "target": "Italy"
-        },
-        {
-            "source": "Croatia",
-            "target": "Montenegro"
-        },
-        {
-            "source": "Croatia",
-            "target": "Slovenia"
-        },
-        {
-            "source": "Croatia",
-            "target": "Serbia"
-        },
-        {
-            "source": "Cyprus",
-            "target": "Turkey"
-        },
-        {
-            "source": "Czech Republic",
-            "target": "Austria"
-        },
-        {
-            "source": "Czech Republic",
-            "target": "Germany"
-        },
-        {
-            "source": "Czech Republic",
-            "target": "Poland"
-        },
-        {
-            "source": "Czech Republic",
-            "target": "Slovakia"
-        },
-        {
-            "source": "Denmark",
-            "target": "Germany"
-        },
-        {
-            "source": "Denmark",
-            "target": "Sweden"
-        },
-        {
-            "source": "Djibouti",
-            "target": "Eritrea"
-        },
-        {
-            "source": "Djibouti",
-            "target": "Ethiopia"
-        },
-        {
-            "source": "Djibouti",
-            "target": "Somalia"
-        },
-        {
-            "source": "Djibouti",
-            "target": "Yemen"
-        },
-        {
-            "source": "Dominican Republic",
-            "target": "Haiti"
-        },
-        {
-            "source": "Ecuador",
-            "target": "Colombia"
-        },
-        {
-            "source": "Ecuador",
-            "target": "Peru"
-        },
-        {
-            "source": "Egypt",
-            "target": "Israel"
-        },
-        {
-            "source": "Egypt",
-            "target": "Jordan"
-        },
-        {
-            "source": "Egypt",
-            "target": "Libya"
-        },
-        {
-            "source": "Egypt",
-            "target": "Saudi Arabia"
-        },
-        {
-            "source": "Egypt",
-            "target": "Sudan"
-        },
-        {
-            "source": "El Salvador",
-            "target": "Guatemala"
-        },
-        {
-            "source": "El Salvador",
-            "target": "Honduras"
-        },
-        {
-            "source": "El Salvador",
-            "target": "Nicaragua"
-        },
-        {
-            "source": "Equatorial Guinea",
-            "target": "Cameroon"
-        },
-        {
-            "source": "Equatorial Guinea",
-            "target": "Gabon"
-        },
-        {
-            "source": "Eritrea",
-            "target": "Djibouti"
-        },
-        {
-            "source": "Eritrea",
-            "target": "Ethiopia"
-        },
-        {
-            "source": "Eritrea",
-            "target": "Sudan"
-        },
-        {
-            "source": "Eritrea",
-            "target": "Yemen"
-        },
-        {
-            "source": "Estonia",
-            "target": "Finland"
-        },
-        {
-            "source": "Estonia",
-            "target": "Latvia"
-        },
-        {
-            "source": "Estonia",
-            "target": "Russia"
-        },
-        {
-            "source": "Ethiopia",
-            "target": "Djibouti"
-        },
-        {
-            "source": "Ethiopia",
-            "target": "Eritrea"
-        },
-        {
-            "source": "Ethiopia",
-            "target": "Kenya"
-        },
-        {
-            "source": "Ethiopia",
-            "target": "Somalia"
-        },
-        {
-            "source": "Ethiopia",
-            "target": "Sudan"
-        },
-        {
-            "source": "Finland",
-            "target": "Estonia"
-        },
-        {
-            "source": "Finland",
-            "target": "Norway"
-        },
-        {
-            "source": "Finland",
-            "target": "Russia"
-        },
-        {
-            "source": "Finland",
-            "target": "Sweden"
-        },
-        {
-            "source": "France",
-            "target": "Andorra"
-        },
-        {
-            "source": "France",
-            "target": "Belgium"
-        },
-        {
-            "source": "France",
-            "target": "Germany"
-        },
-        {
-            "source": "France",
-            "target": "Italy"
-        },
-        {
-            "source": "France",
-            "target": "Luxembourg"
-        },
-        {
-            "source": "France",
-            "target": "Monaco"
-        },
-        {
-            "source": "France",
-            "target": "Spain"
-        },
-        {
-            "source": "France",
-            "target": "Switzerland"
-        },
-        {
-            "source": "France",
-            "target": "United Kingdom"
-        },
-        {
-            "source": "Gabon",
-            "target": "Cameroon"
-        },
-        {
-            "source": "Gabon",
-            "target": "Congo"
-        },
-        {
-            "source": "Gabon",
-            "target": "Equatorial Guinea"
-        },
-        {
-            "source": "Gambia",
-            "target": "Senegal"
-        },
-        {
-            "source": "Georgia",
-            "target": "Armenia"
-        },
-        {
-            "source": "Georgia",
-            "target": "Azerbaijan"
-        },
-        {
-            "source": "Georgia",
-            "target": "Russia"
-        },
-        {
-            "source": "Georgia",
-            "target": "Turkey"
-        },
-        {
-            "source": "Germany",
-            "target": "Austria"
-        },
-        {
-            "source": "Germany",
-            "target": "Belgium"
-        },
-        {
-            "source": "Germany",
-            "target": "Czech Republic"
-        },
-        {
-            "source": "Germany",
-            "target": "Denmark"
-        },
-        {
-            "source": "Germany",
-            "target": "France"
-        },
-        {
-            "source": "Germany",
-            "target": "Luxembourg"
-        },
-        {
-            "source": "Germany",
-            "target": "Netherlands"
-        },
-        {
-            "source": "Germany",
-            "target": "Poland"
-        },
-        {
-            "source": "Germany",
-            "target": "Switzerland"
-        },
-        {
-            "source": "Ghana",
-            "target": "Burkina Faso"
-        },
-        {
-            "source": "Ghana",
-            "target": "Ivory Coast"
-        },
-        {
-            "source": "Ghana",
-            "target": "Togo"
-        },
-        {
-            "source": "Greece",
-            "target": "Albania"
-        },
-        {
-            "source": "Greece",
-            "target": "Bulgaria"
-        },
-        {
-            "source": "Greece",
-            "target": "North Macedonia"
-        },
-        {
-            "source": "Greece",
-            "target": "Turkey"
-        },
-        {
-            "source": "Grenada",
-            "target": "St. Vincent and the Grenadines"
-        },
-        {
-            "source": "Guatemala",
-            "target": "Belize"
-        },
-        {
-            "source": "Guatemala",
-            "target": "El Salvador"
-        },
-        {
-            "source": "Guatemala",
-            "target": "Honduras"
-        },
-        {
-            "source": "Guatemala",
-            "target": "Mexico"
-        },
-        {
-            "source": "Guinea",
-            "target": "Guinea-Bissau"
-        },
-        {
-            "source": "Guinea",
-            "target": "Ivory Coast"
-        },
-        {
-            "source": "Guinea",
-            "target": "Liberia"
-        },
-        {
-            "source": "Guinea",
-            "target": "Mali"
-        },
-        {
-            "source": "Guinea",
-            "target": "Senegal"
-        },
-        {
-            "source": "Guinea",
-            "target": "Sierra Leone"
-        },
-        {
-            "source": "Guinea-Bissau",
-            "target": "Guinea"
-        },
-        {
-            "source": "Guinea-Bissau",
-            "target": "Senegal"
-        },
-        {
-            "source": "Guyana",
-            "target": "Brazil"
-        },
-        {
-            "source": "Guyana",
-            "target": "Suriname"
-        },
-        {
-            "source": "Guyana",
-            "target": "Venezuela"
-        },
-        {
-            "source": "Haiti",
-            "target": "Dominican Republic"
-        },
-        {
-            "source": "Holy See (Vatican City State)",
-            "target": "Italy"
-        },
-        {
-            "source": "Honduras",
-            "target": "El Salvador"
-        },
-        {
-            "source": "Honduras",
-            "target": "Guatemala"
-        },
-        {
-            "source": "Honduras",
-            "target": "Nicaragua"
-        },
-        {
-            "source": "Hungary",
-            "target": "Austria"
-        },
-        {
-            "source": "Hungary",
-            "target": "Croatia"
-        },
-        {
-            "source": "Hungary",
-            "target": "Romania"
-        },
-        {
-            "source": "Hungary",
-            "target": "Slovakia"
-        },
-        {
-            "source": "Hungary",
-            "target": "Slovenia"
-        },
-        {
-            "source": "Hungary",
-            "target": "Ukraine"
-        },
-        {
-            "source": "Hungary",
-            "target": "Serbia"
-        },
-        {
-            "source": "India",
-            "target": "Bangladesh"
-        },
-        {
-            "source": "India",
-            "target": "Bhutan"
-        },
-        {
-            "source": "India",
-            "target": "China"
-        },
-        {
-            "source": "India",
-            "target": "Myanmar"
-        },
-        {
-            "source": "India",
-            "target": "Nepal"
-        },
-        {
-            "source": "India",
-            "target": "Pakistan"
-        },
-        {
-            "source": "India",
-            "target": "Sri Lanka"
-        },
-        {
-            "source": "Indonesia",
-            "target": "Timor-Leste"
-        },
-        {
-            "source": "Indonesia",
-            "target": "Malaysia"
-        },
-        {
-            "source": "Indonesia",
-            "target": "Papua New Guinea"
-        },
-        {
-            "source": "Indonesia",
-            "target": "Singapore"
-        },
-        {
-            "source": "Iran",
-            "target": "Afghanistan"
-        },
-        {
-            "source": "Iran",
-            "target": "Armenia"
-        },
-        {
-            "source": "Iran",
-            "target": "Azerbaijan"
-        },
-        {
-            "source": "Iran",
-            "target": "Iraq"
-        },
-        {
-            "source": "Iran",
-            "target": "Kuwait"
-        },
-        {
-            "source": "Iran",
-            "target": "Pakistan"
-        },
-        {
-            "source": "Iran",
-            "target": "Turkey"
-        },
-        {
-            "source": "Iran",
-            "target": "Turkmenistan"
-        },
-        {
-            "source": "Iraq",
-            "target": "Iran"
-        },
-        {
-            "source": "Iraq",
-            "target": "Jordan"
-        },
-        {
-            "source": "Iraq",
-            "target": "Kuwait"
-        },
-        {
-            "source": "Iraq",
-            "target": "Saudi Arabia"
-        },
-        {
-            "source": "Iraq",
-            "target": "Syria"
-        },
-        {
-            "source": "Iraq",
-            "target": "Turkey"
-        },
-        {
-            "source": "Ireland",
-            "target": "United Kingdom"
-        },
-        {
-            "source": "Israel",
-            "target": "Egypt"
-        },
-        {
-            "source": "Israel",
-            "target": "Jordan"
-        },
-        {
-            "source": "Israel",
-            "target": "Lebanon"
-        },
-        {
-            "source": "Israel",
-            "target": "Saudi Arabia"
-        },
-        {
-            "source": "Israel",
-            "target": "Syria"
-        },
-        {
-            "source": "Italy",
-            "target": "Austria"
-        },
-        {
-            "source": "Italy",
-            "target": "Croatia"
-        },
-        {
-            "source": "Italy",
-            "target": "France"
-        },
-        {
-            "source": "Italy",
-            "target": "San Marino"
-        },
-        {
-            "source": "Italy",
-            "target": "Slovenia"
-        },
-        {
-            "source": "Italy",
-            "target": "Switzerland"
-        },
-        {
-            "source": "Ivory Coast",
-            "target": "Burkina Faso"
-        },
-        {
-            "source": "Ivory Coast",
-            "target": "Ghana"
-        },
-        {
-            "source": "Ivory Coast",
-            "target": "Guinea"
-        },
-        {
-            "source": "Ivory Coast",
-            "target": "Liberia"
-        },
-        {
-            "source": "Ivory Coast",
-            "target": "Mali"
-        },
-        {
-            "source": "Japan",
-            "target": "Russia"
-        },
-        {
-            "source": "Jordan",
-            "target": "Egypt"
-        },
-        {
-            "source": "Jordan",
-            "target": "Iraq"
-        },
-        {
-            "source": "Jordan",
-            "target": "Israel"
-        },
-        {
-            "source": "Jordan",
-            "target": "Saudi Arabia"
-        },
-        {
-            "source": "Jordan",
-            "target": "Syria"
-        },
-        {
-            "source": "Kazakhstan",
-            "target": "China"
-        },
-        {
-            "source": "Kazakhstan",
-            "target": "Kyrgyzstan"
-        },
-        {
-            "source": "Kazakhstan",
-            "target": "Russia"
-        },
-        {
-            "source": "Kazakhstan",
-            "target": "Turkmenistan"
-        },
-        {
-            "source": "Kazakhstan",
-            "target": "Uzbekistan"
-        },
-        {
-            "source": "Kenya",
-            "target": "Ethiopia"
-        },
-        {
-            "source": "Kenya",
-            "target": "Somalia"
-        },
-        {
-            "source": "Kenya",
-            "target": "Sudan"
-        },
-        {
-            "source": "Kenya",
-            "target": "Tanzania"
-        },
-        {
-            "source": "Kenya",
-            "target": "Uganda"
-        },
-        {
-            "source": "Kuwait",
-            "target": "Iran"
-        },
-        {
-            "source": "Kuwait",
-            "target": "Iraq"
-        },
-        {
-            "source": "Kuwait",
-            "target": "Saudi Arabia"
-        },
-        {
-            "source": "Kyrgyzstan",
-            "target": "China"
-        },
-        {
-            "source": "Kyrgyzstan",
-            "target": "Kazakhstan"
-        },
-        {
-            "source": "Kyrgyzstan",
-            "target": "Tajikistan"
-        },
-        {
-            "source": "Kyrgyzstan",
-            "target": "Uzbekistan"
-        },
-        {
-            "source": "Laos",
-            "target": "Cambodia"
-        },
-        {
-            "source": "Laos",
-            "target": "China"
-        },
-        {
-            "source": "Laos",
-            "target": "Myanmar"
-        },
-        {
-            "source": "Laos",
-            "target": "Thailand"
-        },
-        {
-            "source": "Laos",
-            "target": "Vietnam"
-        },
-        {
-            "source": "Latvia",
-            "target": "Belarus"
-        },
-        {
-            "source": "Latvia",
-            "target": "Estonia"
-        },
-        {
-            "source": "Latvia",
-            "target": "Lithuania"
-        },
-        {
-            "source": "Latvia",
-            "target": "Russia"
-        },
-        {
-            "source": "Lebanon",
-            "target": "Israel"
-        },
-        {
-            "source": "Lebanon",
-            "target": "Syria"
-        },
-        {
-            "source": "Lesotho",
-            "target": "South Africa"
-        },
-        {
-            "source": "Liberia",
-            "target": "Guinea"
-        },
-        {
-            "source": "Liberia",
-            "target": "Ivory Coast"
-        },
-        {
-            "source": "Liberia",
-            "target": "Sierra Leone"
-        },
-        {
-            "source": "Libya",
-            "target": "Algeria"
-        },
-        {
-            "source": "Libya",
-            "target": "Chad"
-        },
-        {
-            "source": "Libya",
-            "target": "Egypt"
-        },
-        {
-            "source": "Libya",
-            "target": "Niger"
-        },
-        {
-            "source": "Libya",
-            "target": "Sudan"
-        },
-        {
-            "source": "Libya",
-            "target": "Tunisia"
-        },
-        {
-            "source": "Liechtenstein",
-            "target": "Austria"
-        },
-        {
-            "source": "Liechtenstein",
-            "target": "Switzerland"
-        },
-        {
-            "source": "Lithuania",
-            "target": "Belarus"
-        },
-        {
-            "source": "Lithuania",
-            "target": "Latvia"
-        },
-        {
-            "source": "Lithuania",
-            "target": "Poland"
-        },
-        {
-            "source": "Lithuania",
-            "target": "Russia"
-        },
-        {
-            "source": "Luxembourg",
-            "target": "Belgium"
-        },
-        {
-            "source": "Luxembourg",
-            "target": "France"
-        },
-        {
-            "source": "Luxembourg",
-            "target": "Germany"
-        },
-        {
-            "source": "Malawi",
-            "target": "Mozambique"
-        },
-        {
-            "source": "Malawi",
-            "target": "Tanzania"
-        },
-        {
-            "source": "Malawi",
-            "target": "Zambia"
-        },
-        {
-            "source": "Malaysia",
-            "target": "Brunei"
-        },
-        {
-            "source": "Malaysia",
-            "target": "Indonesia"
-        },
-        {
-            "source": "Malaysia",
-            "target": "Philippines"
-        },
-        {
-            "source": "Malaysia",
-            "target": "Singapore"
-        },
-        {
-            "source": "Malaysia",
-            "target": "Thailand"
-        },
-        {
-            "source": "Mali",
-            "target": "Algeria"
-        },
-        {
-            "source": "Mali",
-            "target": "Burkina Faso"
-        },
-        {
-            "source": "Mali",
-            "target": "Guinea"
-        },
-        {
-            "source": "Mali",
-            "target": "Ivory Coast"
-        },
-        {
-            "source": "Mali",
-            "target": "Mauritania"
-        },
-        {
-            "source": "Mali",
-            "target": "Niger"
-        },
-        {
-            "source": "Mali",
-            "target": "Senegal"
-        },
-        {
-            "source": "Mauritania",
-            "target": "Algeria"
-        },
-        {
-            "source": "Mauritania",
-            "target": "Mali"
-        },
-        {
-            "source": "Mauritania",
-            "target": "Morocco"
-        },
-        {
-            "source": "Mauritania",
-            "target": "Senegal"
-        },
-        {
-            "source": "Mexico",
-            "target": "Belize"
-        },
-        {
-            "source": "Mexico",
-            "target": "Guatemala"
-        },
-        {
-            "source": "Mexico",
-            "target": "United States of America"
-        },
-        {
-            "source": "Moldova",
-            "target": "Romania"
-        },
-        {
-            "source": "Moldova",
-            "target": "Ukraine"
-        },
-        {
-            "source": "Monaco",
-            "target": "France"
-        },
-        {
-            "source": "Mongolia",
-            "target": "China"
-        },
-        {
-            "source": "Mongolia",
-            "target": "Russia"
-        },
-        {
-            "source": "Montenegro",
-            "target": "Albania"
-        },
-        {
-            "source": "Montenegro",
-            "target": "Bosnia and Herzegovina"
-        },
-        {
-            "source": "Montenegro",
-            "target": "Croatia"
-        },
-        {
-            "source": "Montenegro",
-            "target": "Serbia"
-        },
-        {
-            "source": "Morocco",
-            "target": "Algeria"
-        },
-        {
-            "source": "Morocco",
-            "target": "Mauritania"
-        },
-        {
-            "source": "Morocco",
-            "target": "Spain"
-        },
-        {
-            "source": "Mozambique",
-            "target": "Malawi"
-        },
-        {
-            "source": "Mozambique",
-            "target": "South Africa"
-        },
-        {
-            "source": "Mozambique",
-            "target": "Swaziland"
-        },
-        {
-            "source": "Mozambique",
-            "target": "Tanzania"
-        },
-        {
-            "source": "Mozambique",
-            "target": "Zambia"
-        },
-        {
-            "source": "Mozambique",
-            "target": "Zimbabwe"
-        },
-        {
-            "source": "Myanmar",
-            "target": "Bangladesh"
-        },
-        {
-            "source": "Myanmar",
-            "target": "China"
-        },
-        {
-            "source": "Myanmar",
-            "target": "India"
-        },
-        {
-            "source": "Myanmar",
-            "target": "Laos"
-        },
-        {
-            "source": "Myanmar",
-            "target": "Pakistan"
-        },
-        {
-            "source": "Myanmar",
-            "target": "Thailand"
-        },
-        {
-            "source": "Namibia",
-            "target": "Angola"
-        },
-        {
-            "source": "Namibia",
-            "target": "Botswana"
-        },
-        {
-            "source": "Namibia",
-            "target": "South Africa"
-        },
-        {
-            "source": "Namibia",
-            "target": "Zambia"
-        },
-        {
-            "source": "Nepal",
-            "target": "China"
-        },
-        {
-            "source": "Nepal",
-            "target": "India"
-        },
-        {
-            "source": "Netherlands",
-            "target": "Belgium"
-        },
-        {
-            "source": "Netherlands",
-            "target": "Germany"
-        },
-        {
-            "source": "Nicaragua",
-            "target": "Costa Rica"
-        },
-        {
-            "source": "Nicaragua",
-            "target": "El Salvador"
-        },
-        {
-            "source": "Nicaragua",
-            "target": "Honduras"
-        },
-        {
-            "source": "Niger",
-            "target": "Algeria"
-        },
-        {
-            "source": "Niger",
-            "target": "Benin"
-        },
-        {
-            "source": "Niger",
-            "target": "Burkina Faso"
-        },
-        {
-            "source": "Niger",
-            "target": "Chad"
-        },
-        {
-            "source": "Niger",
-            "target": "Libya"
-        },
-        {
-            "source": "Niger",
-            "target": "Mali"
-        },
-        {
-            "source": "Niger",
-            "target": "Nigeria"
-        },
-        {
-            "source": "Nigeria",
-            "target": "Benin"
-        },
-        {
-            "source": "Nigeria",
-            "target": "Cameroon"
-        },
-        {
-            "source": "Nigeria",
-            "target": "Chad"
-        },
-        {
-            "source": "Nigeria",
-            "target": "Niger"
-        },
-        {
-            "source": "North Korea",
-            "target": "China"
-        },
-        {
-            "source": "North Korea",
-            "target": "Russia"
-        },
-        {
-            "source": "North Korea",
-            "target": "South Korea"
-        },
-        {
-            "source": "Norway",
-            "target": "Finland"
-        },
-        {
-            "source": "Norway",
-            "target": "Russia"
-        },
-        {
-            "source": "Norway",
-            "target": "Sweden"
-        },
-        {
-            "source": "Oman",
-            "target": "Saudi Arabia"
-        },
-        {
-            "source": "Oman",
-            "target": "United Arab Emirates"
-        },
-        {
-            "source": "Oman",
-            "target": "Yemen"
-        },
-        {
-            "source": "Pakistan",
-            "target": "Afghanistan"
-        },
-        {
-            "source": "Pakistan",
-            "target": "China"
-        },
-        {
-            "source": "Pakistan",
-            "target": "India"
-        },
-        {
-            "source": "Pakistan",
-            "target": "Iran"
-        },
-        {
-            "source": "Pakistan",
-            "target": "Myanmar"
-        },
-        {
-            "source": "Palestine",
-            "target": "Egypt"
-        },
-        {
-            "source": "Palestine",
-            "target": "Jordan"
-        },
-        {
-            "source": "Palestine",
-            "target": "Israel"
-        },
-        {
-            "source": "Panama",
-            "target": "Colombia"
-        },
-        {
-            "source": "Panama",
-            "target": "Costa Rica"
-        },
-        {
-            "source": "Papua New Guinea",
-            "target": "Australia"
-        },
-        {
-            "source": "Papua New Guinea",
-            "target": "Indonesia"
-        },
-        {
-            "source": "Papua New Guinea",
-            "target": "Solomon Islands"
-        },
-        {
-            "source": "Paraguay",
-            "target": "Argentina"
-        },
-        {
-            "source": "Paraguay",
-            "target": "Bolivia"
-        },
-        {
-            "source": "Paraguay",
-            "target": "Brazil"
-        },
-        {
-            "source": "Peru",
-            "target": "Bolivia"
-        },
-        {
-            "source": "Peru",
-            "target": "Brazil"
-        },
-        {
-            "source": "Peru",
-            "target": "Chile"
-        },
-        {
-            "source": "Peru",
-            "target": "Colombia"
-        },
-        {
-            "source": "Peru",
-            "target": "Ecuador"
-        },
-        {
-            "source": "Philippines",
-            "target": "Malaysia"
-        },
-        {
-            "source": "Poland",
-            "target": "Belarus"
-        },
-        {
-            "source": "Poland",
-            "target": "Czech Republic"
-        },
-        {
-            "source": "Poland",
-            "target": "Germany"
-        },
-        {
-            "source": "Poland",
-            "target": "Lithuania"
-        },
-        {
-            "source": "Poland",
-            "target": "Russia"
-        },
-        {
-            "source": "Poland",
-            "target": "Slovakia"
-        },
-        {
-            "source": "Poland",
-            "target": "Ukraine"
-        },
-        {
-            "source": "Portugal",
-            "target": "Spain"
-        },
-        {
-            "source": "Qatar",
-            "target": "Bahrain"
-        },
-        {
-            "source": "Qatar",
-            "target": "Saudi Arabia"
-        },
-        {
-            "source": "Qatar",
-            "target": "United Arab Emirates"
-        },
-        {
-            "source": "Romania",
-            "target": "Bulgaria"
-        },
-        {
-            "source": "Romania",
-            "target": "Hungary"
-        },
-        {
-            "source": "Romania",
-            "target": "Moldova"
-        },
-        {
-            "source": "Romania",
-            "target": "Ukraine"
-        },
-        {
-            "source": "Romania",
-            "target": "Serbia"
-        },
-        {
-            "source": "Russia",
-            "target": "Azerbaijan"
-        },
-        {
-            "source": "Russia",
-            "target": "Belarus"
-        },
-        {
-            "source": "Russia",
-            "target": "China"
-        },
-        {
-            "source": "Russia",
-            "target": "Estonia"
-        },
-        {
-            "source": "Russia",
-            "target": "Finland"
-        },
-        {
-            "source": "Russia",
-            "target": "Georgia"
-        },
-        {
-            "source": "Russia",
-            "target": "Japan"
-        },
-        {
-            "source": "Russia",
-            "target": "Kazakhstan"
-        },
-        {
-            "source": "Russia",
-            "target": "Latvia"
-        },
-        {
-            "source": "Russia",
-            "target": "Lithuania"
-        },
-        {
-            "source": "Russia",
-            "target": "Mongolia"
-        },
-        {
-            "source": "Russia",
-            "target": "North Korea"
-        },
-        {
-            "source": "Russia",
-            "target": "Norway"
-        },
-        {
-            "source": "Russia",
-            "target": "Poland"
-        },
-        {
-            "source": "Russia",
-            "target": "Ukraine"
-        },
-        {
-            "source": "Russia",
-            "target": "United States of America"
-        },
-        {
-            "source": "Rwanda",
-            "target": "Burundi"
-        },
-        {
-            "source": "Rwanda",
-            "target": "The Democratic Republic of Congo"
-        },
-        {
-            "source": "Rwanda",
-            "target": "Tanzania"
-        },
-        {
-            "source": "Rwanda",
-            "target": "Uganda"
-        },
-        {
-            "source": "San Marino",
-            "target": "Italy"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "Bahrain"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "Egypt"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "Iraq"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "Israel"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "Jordan"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "Kuwait"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "Oman"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "Qatar"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "United Arab Emirates"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "Yemen"
-        },
-        {
-            "source": "Senegal",
-            "target": "Gambia"
-        },
-        {
-            "source": "Senegal",
-            "target": "Guinea"
-        },
-        {
-            "source": "Senegal",
-            "target": "Guinea-Bissau"
-        },
-        {
-            "source": "Senegal",
-            "target": "Mali"
-        },
-        {
-            "source": "Senegal",
-            "target": "Mauritania"
-        },
-        {
-            "source": "Sierra Leone",
-            "target": "Guinea"
-        },
-        {
-            "source": "Sierra Leone",
-            "target": "Liberia"
-        },
-        {
-            "source": "Singapore",
-            "target": "Indonesia"
-        },
-        {
-            "source": "Singapore",
-            "target": "Malaysia"
-        },
-        {
-            "source": "Slovakia",
-            "target": "Austria"
-        },
-        {
-            "source": "Slovakia",
-            "target": "Czech Republic"
-        },
-        {
-            "source": "Slovakia",
-            "target": "Hungary"
-        },
-        {
-            "source": "Slovakia",
-            "target": "Poland"
-        },
-        {
-            "source": "Slovakia",
-            "target": "Ukraine"
-        },
-        {
-            "source": "Slovenia",
-            "target": "Austria"
-        },
-        {
-            "source": "Slovenia",
-            "target": "Croatia"
-        },
-        {
-            "source": "Slovenia",
-            "target": "Hungary"
-        },
-        {
-            "source": "Slovenia",
-            "target": "Italy"
-        },
-        {
-            "source": "Solomon Islands",
-            "target": "Papua New Guinea"
-        },
-        {
-            "source": "Somalia",
-            "target": "Djibouti"
-        },
-        {
-            "source": "Somalia",
-            "target": "Ethiopia"
-        },
-        {
-            "source": "Somalia",
-            "target": "Kenya"
-        },
-        {
-            "source": "South Africa",
-            "target": "Botswana"
-        },
-        {
-            "source": "South Africa",
-            "target": "Lesotho"
-        },
-        {
-            "source": "South Africa",
-            "target": "Mozambique"
-        },
-        {
-            "source": "South Africa",
-            "target": "Namibia"
-        },
-        {
-            "source": "South Africa",
-            "target": "Swaziland"
-        },
-        {
-            "source": "South Africa",
-            "target": "Zimbabwe"
-        },
-        {
-            "source": "South Korea",
-            "target": "North Korea"
-        },
-        {
-            "source": "Spain",
-            "target": "Andorra"
-        },
-        {
-            "source": "Spain",
-            "target": "France"
-        },
-        {
-            "source": "Spain",
-            "target": "Morocco"
-        },
-        {
-            "source": "Spain",
-            "target": "Portugal"
-        },
-        {
-            "source": "Sri Lanka",
-            "target": "India"
-        },
-        {
-            "source": "Sudan",
-            "target": "Central African Republic"
-        },
-        {
-            "source": "Sudan",
-            "target": "Chad"
-        },
-        {
-            "source": "Sudan",
-            "target": "The Democratic Republic of Congo"
-        },
-        {
-            "source": "Sudan",
-            "target": "Egypt"
-        },
-        {
-            "source": "Sudan",
-            "target": "Eritrea"
-        },
-        {
-            "source": "Sudan",
-            "target": "Ethiopia"
-        },
-        {
-            "source": "Sudan",
-            "target": "Kenya"
-        },
-        {
-            "source": "Sudan",
-            "target": "Libya"
-        },
-        {
-            "source": "Sudan",
-            "target": "Uganda"
-        },
-        {
-            "source": "Suriname",
-            "target": "Brazil"
-        },
-        {
-            "source": "Suriname",
-            "target": "Guyana"
-        },
-        {
-            "source": "Sweden",
-            "target": "Denmark"
-        },
-        {
-            "source": "Sweden",
-            "target": "Finland"
-        },
-        {
-            "source": "Sweden",
-            "target": "Norway"
-        },
-        {
-            "source": "Switzerland",
-            "target": "Austria"
-        },
-        {
-            "source": "Switzerland",
-            "target": "France"
-        },
-        {
-            "source": "Switzerland",
-            "target": "Germany"
-        },
-        {
-            "source": "Switzerland",
-            "target": "Italy"
-        },
-        {
-            "source": "Switzerland",
-            "target": "Liechtenstein"
-        },
-        {
-            "source": "Syria",
-            "target": "Iraq"
-        },
-        {
-            "source": "Syria",
-            "target": "Israel"
-        },
-        {
-            "source": "Syria",
-            "target": "Jordan"
-        },
-        {
-            "source": "Syria",
-            "target": "Lebanon"
-        },
-        {
-            "source": "Syria",
-            "target": "Turkey"
-        },
-        {
-            "source": "Taiwan",
-            "target": "China"
-        },
-        {
-            "source": "Tajikistan",
-            "target": "Afghanistan"
-        },
-        {
-            "source": "Tajikistan",
-            "target": "China"
-        },
-        {
-            "source": "Tajikistan",
-            "target": "Kyrgyzstan"
-        },
-        {
-            "source": "Tajikistan",
-            "target": "Uzbekistan"
-        },
-        {
-            "source": "Tanzania",
-            "target": "Burundi"
-        },
-        {
-            "source": "Tanzania",
-            "target": "The Democratic Republic of Congo"
-        },
-        {
-            "source": "Tanzania",
-            "target": "Kenya"
-        },
-        {
-            "source": "Tanzania",
-            "target": "Malawi"
-        },
-        {
-            "source": "Tanzania",
-            "target": "Mozambique"
-        },
-        {
-            "source": "Tanzania",
-            "target": "Rwanda"
-        },
-        {
-            "source": "Tanzania",
-            "target": "Uganda"
-        },
-        {
-            "source": "Tanzania",
-            "target": "Zambia"
-        },
-        {
-            "source": "Thailand",
-            "target": "Cambodia"
-        },
-        {
-            "source": "Thailand",
-            "target": "Laos"
-        },
-        {
-            "source": "Thailand",
-            "target": "Malaysia"
-        },
-        {
-            "source": "Thailand",
-            "target": "Myanmar"
-        },
-        {
-            "source": "Timor-Leste",
-            "target": "Indonesia"
-        },
-        {
-            "source": "Togo",
-            "target": "Benin"
-        },
-        {
-            "source": "Togo",
-            "target": "Burkina Faso"
-        },
-        {
-            "source": "Togo",
-            "target": "Ghana"
-        },
-        {
-            "source": "Trinidad and Tobago",
-            "target": "Venezuela"
-        },
-        {
-            "source": "Tunisia",
-            "target": "Algeria"
-        },
-        {
-            "source": "Tunisia",
-            "target": "Libya"
-        },
-        {
-            "source": "Turkey",
-            "target": "Armenia"
-        },
-        {
-            "source": "Turkey",
-            "target": "Azerbaijan"
-        },
-        {
-            "source": "Turkey",
-            "target": "Bulgaria"
-        },
-        {
-            "source": "Turkey",
-            "target": "Cyprus"
-        },
-        {
-            "source": "Turkey",
-            "target": "Georgia"
-        },
-        {
-            "source": "Turkey",
-            "target": "Greece"
-        },
-        {
-            "source": "Turkey",
-            "target": "Iran"
-        },
-        {
-            "source": "Turkey",
-            "target": "Iraq"
-        },
-        {
-            "source": "Turkey",
-            "target": "Syria"
-        },
-        {
-            "source": "Turkmenistan",
-            "target": "Afghanistan"
-        },
-        {
-            "source": "Turkmenistan",
-            "target": "Iran"
-        },
-        {
-            "source": "Turkmenistan",
-            "target": "Kazakhstan"
-        },
-        {
-            "source": "Turkmenistan",
-            "target": "Uzbekistan"
-        },
-        {
-            "source": "Uganda",
-            "target": "The Democratic Republic of Congo"
-        },
-        {
-            "source": "Uganda",
-            "target": "Kenya"
-        },
-        {
-            "source": "Uganda",
-            "target": "Rwanda"
-        },
-        {
-            "source": "Uganda",
-            "target": "Sudan"
-        },
-        {
-            "source": "Uganda",
-            "target": "Tanzania"
-        },
-        {
-            "source": "Ukraine",
-            "target": "Belarus"
-        },
-        {
-            "source": "Ukraine",
-            "target": "Hungary"
-        },
-        {
-            "source": "Ukraine",
-            "target": "Moldova"
-        },
-        {
-            "source": "Ukraine",
-            "target": "Poland"
-        },
-        {
-            "source": "Ukraine",
-            "target": "Romania"
-        },
-        {
-            "source": "Ukraine",
-            "target": "Russia"
-        },
-        {
-            "source": "Ukraine",
-            "target": "Slovakia"
-        },
-        {
-            "source": "United Arab Emirates",
-            "target": "Oman"
-        },
-        {
-            "source": "United Arab Emirates",
-            "target": "Qatar"
-        },
-        {
-            "source": "United Arab Emirates",
-            "target": "Saudi Arabia"
-        },
-        {
-            "source": "United Kingdom",
-            "target": "France"
-        },
-        {
-            "source": "United Kingdom",
-            "target": "Ireland"
-        },
-        {
-            "source": "United States of America",
-            "target": "Canada"
-        },
-        {
-            "source": "United States of America",
-            "target": "Mexico"
-        },
-        {
-            "source": "United States of America",
-            "target": "Russia"
-        },
-        {
-            "source": "Uruguay",
-            "target": "Argentina"
-        },
-        {
-            "source": "Uruguay",
-            "target": "Brazil"
-        },
-        {
-            "source": "Uzbekistan",
-            "target": "Afghanistan"
-        },
-        {
-            "source": "Uzbekistan",
-            "target": "Kazakhstan"
-        },
-        {
-            "source": "Uzbekistan",
-            "target": "Kyrgyzstan"
-        },
-        {
-            "source": "Uzbekistan",
-            "target": "Tajikistan"
-        },
-        {
-            "source": "Uzbekistan",
-            "target": "Turkmenistan"
-        },
-        {
-            "source": "Venezuela",
-            "target": "Brazil"
-        },
-        {
-            "source": "Venezuela",
-            "target": "Colombia"
-        },
-        {
-            "source": "Venezuela",
-            "target": "Guyana"
-        },
-        {
-            "source": "Venezuela",
-            "target": "Trinidad and Tobago"
-        },
-        {
-            "source": "Vietnam",
-            "target": "Cambodia"
-        },
-        {
-            "source": "Vietnam",
-            "target": "China"
-        },
-        {
-            "source": "Vietnam",
-            "target": "Laos"
-        },
-        {
-            "source": "Yemen",
-            "target": "Djibouti"
-        },
-        {
-            "source": "Yemen",
-            "target": "Eritrea"
-        },
-        {
-            "source": "Yemen",
-            "target": "Oman"
-        },
-        {
-            "source": "Yemen",
-            "target": "Saudi Arabia"
-        },
-        {
-            "source": "Serbia",
-            "target": "Albania"
-        },
-        {
-            "source": "Serbia",
-            "target": "Bosnia and Herzegovina"
-        },
-        {
-            "source": "Serbia",
-            "target": "Bulgaria"
-        },
-        {
-            "source": "Serbia",
-            "target": "Croatia"
-        },
-        {
-            "source": "Serbia",
-            "target": "Hungary"
-        },
-        {
-            "source": "Serbia",
-            "target": "North Macedonia"
-        },
-        {
-            "source": "Serbia",
-            "target": "Montenegro"
-        },
-        {
-            "source": "Serbia",
-            "target": "Romania"
-        },
-        {
-            "source": "Zambia",
-            "target": "Angola"
-        },
-        {
-            "source": "Zambia",
-            "target": "Botswana"
-        },
-        {
-            "source": "Zambia",
-            "target": "The Democratic Republic of Congo"
-        },
-        {
-            "source": "Zambia",
-            "target": "Malawi"
-        },
-        {
-            "source": "Zambia",
-            "target": "Mozambique"
-        },
-        {
-            "source": "Zambia",
-            "target": "Namibia"
-        },
-        {
-            "source": "Zambia",
-            "target": "Tanzania"
-        },
-        {
-            "source": "Zambia",
-            "target": "Zimbabwe"
-        },
-        {
-            "source": "Zimbabwe",
-            "target": "Botswana"
-        },
-        {
-            "source": "Zimbabwe",
-            "target": "Mozambique"
-        },
-        {
-            "source": "Zimbabwe",
-            "target": "South Africa"
-        },
-        {
-            "source": "Zimbabwe",
-            "target": "Zambia"
-        },
-        {
-            "source": "Afghanistan",
-            "target": "Asia"
-        },
-        {
-            "source": "Albania",
-            "target": "Europe"
-        },
-        {
-            "source": "Algeria",
-            "target": "Africa"
-        },
-        {
-            "source": "Andorra",
-            "target": "Europe"
-        },
-        {
-            "source": "Angola",
-            "target": "Africa"
-        },
-        {
-            "source": "Antigua and Barbuda",
-            "target": "North America"
-        },
-        {
-            "source": "Argentina",
-            "target": "South America"
-        },
-        {
-            "source": "Armenia",
-            "target": "Asia"
-        },
-        {
-            "source": "Australia",
-            "target": "Oceania"
-        },
-        {
-            "source": "Austria",
-            "target": "Europe"
-        },
-        {
-            "source": "Azerbaijan",
-            "target": "Asia"
-        },
-        {
-            "source": "Bahamas",
-            "target": "North America"
-        },
-        {
-            "source": "Bahrain",
-            "target": "Asia"
-        },
-        {
-            "source": "Bangladesh",
-            "target": "Asia"
-        },
-        {
-            "source": "Barbados",
-            "target": "North America"
-        },
-        {
-            "source": "Belarus",
-            "target": "Europe"
-        },
-        {
-            "source": "Belgium",
-            "target": "Europe"
-        },
-        {
-            "source": "Belize",
-            "target": "North America"
-        },
-        {
-            "source": "Benin",
-            "target": "Africa"
-        },
-        {
-            "source": "Bhutan",
-            "target": "Asia"
-        },
-        {
-            "source": "Bolivia",
-            "target": "South America"
-        },
-        {
-            "source": "Bosnia and Herzegovina",
-            "target": "Europe"
-        },
-        {
-            "source": "Botswana",
-            "target": "Africa"
-        },
-        {
-            "source": "Brazil",
-            "target": "South America"
-        },
-        {
-            "source": "Brunei",
-            "target": "Asia"
-        },
-        {
-            "source": "Bulgaria",
-            "target": "Europe"
-        },
-        {
-            "source": "Burkina Faso",
-            "target": "Africa"
-        },
-        {
-            "source": "Burundi",
-            "target": "Africa"
-        },
-        {
-            "source": "Cambodia",
-            "target": "Asia"
-        },
-        {
-            "source": "Cameroon",
-            "target": "Africa"
-        },
-        {
-            "source": "Canada",
-            "target": "North America"
-        },
-        {
-            "source": "Cape Verde",
-            "target": "Africa"
-        },
-        {
-            "source": "Central African Republic",
-            "target": "Africa"
-        },
-        {
-            "source": "Chad",
-            "target": "Africa"
-        },
-        {
-            "source": "Chile",
-            "target": "South America"
-        },
-        {
-            "source": "China",
-            "target": "Asia"
-        },
-        {
-            "source": "Colombia",
-            "target": "South America"
-        },
-        {
-            "source": "Comoros",
-            "target": "Africa"
-        },
-        {
-            "source": "Congo",
-            "target": "Africa"
-        },
-        {
-            "source": "Costa Rica",
-            "target": "North America"
-        },
-        {
-            "source": "Croatia",
-            "target": "Europe"
-        },
-        {
-            "source": "Cuba",
-            "target": "North America"
-        },
-        {
-            "source": "Cyprus",
-            "target": "Asia"
-        },
-        {
-            "source": "Czech Republic",
-            "target": "Europe"
-        },
-        {
-            "source": "Denmark",
-            "target": "Europe"
-        },
-        {
-            "source": "Djibouti",
-            "target": "Africa"
-        },
-        {
-            "source": "Dominica",
-            "target": "North America"
-        },
-        {
-            "source": "Dominican Republic",
-            "target": "North America"
-        },
-        {
-            "source": "Ecuador",
-            "target": "South America"
-        },
-        {
-            "source": "Egypt",
-            "target": "Africa"
-        },
-        {
-            "source": "El Salvador",
-            "target": "North America"
-        },
-        {
-            "source": "Equatorial Guinea",
-            "target": "Africa"
-        },
-        {
-            "source": "Eritrea",
-            "target": "Africa"
-        },
-        {
-            "source": "Estonia",
-            "target": "Europe"
-        },
-        {
-            "source": "Ethiopia",
-            "target": "Africa"
-        },
-        {
-            "source": "Fiji Islands",
-            "target": "Oceania"
-        },
-        {
-            "source": "Finland",
-            "target": "Europe"
-        },
-        {
-            "source": "France",
-            "target": "Europe"
-        },
-        {
-            "source": "Gabon",
-            "target": "Africa"
-        },
-        {
-            "source": "Gambia",
-            "target": "Africa"
-        },
-        {
-            "source": "Georgia",
-            "target": "Asia"
-        },
-        {
-            "source": "Germany",
-            "target": "Europe"
-        },
-        {
-            "source": "Ghana",
-            "target": "Africa"
-        },
-        {
-            "source": "Greece",
-            "target": "Europe"
-        },
-        {
-            "source": "Grenada",
-            "target": "North America"
-        },
-        {
-            "source": "Guatemala",
-            "target": "North America"
-        },
-        {
-            "source": "Guinea",
-            "target": "Africa"
-        },
-        {
-            "source": "Guinea-Bissau",
-            "target": "Africa"
-        },
-        {
-            "source": "Guyana",
-            "target": "South America"
-        },
-        {
-            "source": "Haiti",
-            "target": "North America"
-        },
-        {
-            "source": "Holy See (Vatican City State)",
-            "target": "Europe"
-        },
-        {
-            "source": "Honduras",
-            "target": "North America"
-        },
-        {
-            "source": "Hungary",
-            "target": "Europe"
-        },
-        {
-            "source": "Iceland",
-            "target": "Europe"
-        },
-        {
-            "source": "India",
-            "target": "Asia"
-        },
-        {
-            "source": "Indonesia",
-            "target": "Asia"
-        },
-        {
-            "source": "Iran",
-            "target": "Asia"
-        },
-        {
-            "source": "Iraq",
-            "target": "Asia"
-        },
-        {
-            "source": "Ireland",
-            "target": "Europe"
-        },
-        {
-            "source": "Israel",
-            "target": "Asia"
-        },
-        {
-            "source": "Italy",
-            "target": "Europe"
-        },
-        {
-            "source": "Ivory Coast",
-            "target": "Africa"
-        },
-        {
-            "source": "Jamaica",
-            "target": "North America"
-        },
-        {
-            "source": "Japan",
-            "target": "Asia"
-        },
-        {
-            "source": "Jordan",
-            "target": "Asia"
-        },
-        {
-            "source": "Kazakhstan",
-            "target": "Asia"
-        },
-        {
-            "source": "Kenya",
-            "target": "Africa"
-        },
-        {
-            "source": "Kiribati",
-            "target": "Oceania"
-        },
-        {
-            "source": "Kuwait",
-            "target": "Asia"
-        },
-        {
-            "source": "Kyrgyzstan",
-            "target": "Asia"
-        },
-        {
-            "source": "Laos",
-            "target": "Asia"
-        },
-        {
-            "source": "Latvia",
-            "target": "Europe"
-        },
-        {
-            "source": "Lebanon",
-            "target": "Asia"
-        },
-        {
-            "source": "Lesotho",
-            "target": "Africa"
-        },
-        {
-            "source": "Liberia",
-            "target": "Africa"
-        },
-        {
-            "source": "Libya",
-            "target": "Africa"
-        },
-        {
-            "source": "Liechtenstein",
-            "target": "Europe"
-        },
-        {
-            "source": "Lithuania",
-            "target": "Europe"
-        },
-        {
-            "source": "Luxembourg",
-            "target": "Europe"
-        },
-        {
-            "source": "North Macedonia",
-            "target": "Europe"
-        },
-        {
-            "source": "Madagascar",
-            "target": "Africa"
-        },
-        {
-            "source": "Malawi",
-            "target": "Africa"
-        },
-        {
-            "source": "Malaysia",
-            "target": "Asia"
-        },
-        {
-            "source": "Maldives",
-            "target": "Asia"
-        },
-        {
-            "source": "Mali",
-            "target": "Africa"
-        },
-        {
-            "source": "Malta",
-            "target": "Europe"
-        },
-        {
-            "source": "Marshall Islands",
-            "target": "Oceania"
-        },
-        {
-            "source": "Mauritania",
-            "target": "Africa"
-        },
-        {
-            "source": "Mauritius",
-            "target": "Africa"
-        },
-        {
-            "source": "Mexico",
-            "target": "North America"
-        },
-        {
-            "source": "Micronesia",
-            "target": "Oceania"
-        },
-        {
-            "source": "Moldova",
-            "target": "Europe"
-        },
-        {
-            "source": "Monaco",
-            "target": "Europe"
-        },
-        {
-            "source": "Mongolia",
-            "target": "Asia"
-        },
-        {
-            "source": "Montenegro",
-            "target": "Europe"
-        },
-        {
-            "source": "Morocco",
-            "target": "Africa"
-        },
-        {
-            "source": "Mozambique",
-            "target": "Africa"
-        },
-        {
-            "source": "Myanmar",
-            "target": "Asia"
-        },
-        {
-            "source": "Namibia",
-            "target": "Africa"
-        },
-        {
-            "source": "Nauru",
-            "target": "Oceania"
-        },
-        {
-            "source": "Nepal",
-            "target": "Asia"
-        },
-        {
-            "source": "Netherlands",
-            "target": "Europe"
-        },
-        {
-            "source": "New Zealand",
-            "target": "Oceania"
-        },
-        {
-            "source": "Nicaragua",
-            "target": "North America"
-        },
-        {
-            "source": "Niger",
-            "target": "Africa"
-        },
-        {
-            "source": "Nigeria",
-            "target": "Africa"
-        },
-        {
-            "source": "North Korea",
-            "target": "Asia"
-        },
-        {
-            "source": "Norway",
-            "target": "Europe"
-        },
-        {
-            "source": "Oman",
-            "target": "Asia"
-        },
-        {
-            "source": "Pakistan",
-            "target": "Asia"
-        },
-        {
-            "source": "Palau",
-            "target": "Oceania"
-        },
-        {
-            "source": "Palestine",
-            "target": "Asia"
-        },
-        {
-            "source": "Panama",
-            "target": "North America"
-        },
-        {
-            "source": "Papua New Guinea",
-            "target": "Oceania"
-        },
-        {
-            "source": "Paraguay",
-            "target": "South America"
-        },
-        {
-            "source": "Peru",
-            "target": "South America"
-        },
-        {
-            "source": "Philippines",
-            "target": "Asia"
-        },
-        {
-            "source": "Poland",
-            "target": "Europe"
-        },
-        {
-            "source": "Portugal",
-            "target": "Europe"
-        },
-        {
-            "source": "Qatar",
-            "target": "Asia"
-        },
-        {
-            "source": "Romania",
-            "target": "Europe"
-        },
-        {
-            "source": "Russia",
-            "target": "Europe"
-        },
-        {
-            "source": "Rwanda",
-            "target": "Africa"
-        },
-        {
-            "source": "Saint Kitts and Nevis",
-            "target": "North America"
-        },
-        {
-            "source": "Saint Lucia",
-            "target": "North America"
-        },
-        {
-            "source": "Saint Vincent and the Grenadines",
-            "target": "North America"
-        },
-        {
-            "source": "Samoa",
-            "target": "Oceania"
-        },
-        {
-            "source": "San Marino",
-            "target": "Europe"
-        },
-        {
-            "source": "Sao Tome and Principe",
-            "target": "Africa"
-        },
-        {
-            "source": "Saudi Arabia",
-            "target": "Asia"
-        },
-        {
-            "source": "Senegal",
-            "target": "Africa"
-        },
-        {
-            "source": "Seychelles",
-            "target": "Africa"
-        },
-        {
-            "source": "Sierra Leone",
-            "target": "Africa"
-        },
-        {
-            "source": "Singapore",
-            "target": "Asia"
-        },
-        {
-            "source": "Slovakia",
-            "target": "Europe"
-        },
-        {
-            "source": "Slovenia",
-            "target": "Europe"
-        },
-        {
-            "source": "Solomon Islands",
-            "target": "Oceania"
-        },
-        {
-            "source": "Somalia",
-            "target": "Africa"
-        },
-        {
-            "source": "South Africa",
-            "target": "Africa"
-        },
-        {
-            "source": "South Korea",
-            "target": "Asia"
-        },
-        {
-            "source": "South Sudan",
-            "target": "Africa"
-        },
-        {
-            "source": "Spain",
-            "target": "Europe"
-        },
-        {
-            "source": "Sri Lanka",
-            "target": "Asia"
-        },
-        {
-            "source": "Sudan",
-            "target": "Africa"
-        },
-        {
-            "source": "Suriname",
-            "target": "South America"
-        },
-        {
-            "source": "Eswatini",
-            "target": "Africa"
-        },
-        {
-            "source": "Sweden",
-            "target": "Europe"
-        },
-        {
-            "source": "Switzerland",
-            "target": "Europe"
-        },
-        {
-            "source": "Syria",
-            "target": "Asia"
-        },
-        {
-            "source": "Taiwan",
-            "target": "Asia"
-        },
-        {
-            "source": "Tajikistan",
-            "target": "Asia"
-        },
-        {
-            "source": "Tanzania",
-            "target": "Africa"
-        },
-        {
-            "source": "Thailand",
-            "target": "Asia"
-        },
-        {
-            "source": "The Democratic Republic of Congo",
-            "target": "Africa"
-        },
-        {
-            "source": "Timor-Leste",
-            "target": "Africa"
-        },
-        {
-            "source": "Togo",
-            "target": "Africa"
-        },
-        {
-            "source": "Tonga",
-            "target": "Oceania"
-        },
-        {
-            "source": "Trinidad and Tobago",
-            "target": "North America"
-        },
-        {
-            "source": "Tunisia",
-            "target": "Africa"
-        },
-        {
-            "source": "Turkey",
-            "target": "Asia"
-        },
-        {
-            "source": "Turkmenistan",
-            "target": "Asia"
-        },
-        {
-            "source": "Tuvalu",
-            "target": "Oceania"
-        },
-        {
-            "source": "Uganda",
-            "target": "Africa"
-        },
-        {
-            "source": "Ukraine",
-            "target": "Europe"
-        },
-        {
-            "source": "United Arab Emirates",
-            "target": "Asia"
-        },
-        {
-            "source": "United Kingdom",
-            "target": "Europe"
-        },
-        {
-            "source": "United States of America",
-            "target": "North America"
-        },
-        {
-            "source": "Uruguay",
-            "target": "South America"
-        },
-        {
-            "source": "Uzbekistan",
-            "target": "Asia"
-        },
-        {
-            "source": "Vanuatu",
-            "target": "Oceania"
-        },
-        {
-            "source": "Venezuela",
-            "target": "South America"
-        },
-        {
-            "source": "Vietnam",
-            "target": "Asia"
-        },
-        {
-            "source": "Yemen",
-            "target": "Asia"
-        },
-        {
-            "source": "Serbia",
-            "target": "Europe"
-        },
-        {
-            "source": "Zambia",
-            "target": "Africa"
-        },
-        {
-            "source": "Zimbabwe",
-            "target": "Africa"
-        }
+    "links":
+    [
+        {"source":"Main","target":"Africa"},
+        {"source":"Main","target":"Asia"},
+        {"source":"Main","target":"Europe"},
+        {"source":"Main","target":"Oceania"},
+        {"source":"Main","target":"North America"},
+        {"source":"Main","target":"South America"},
+
+        {"source":"Afghanistan","target":"Asia"},
+        {"source":"Albania","target":"Europe"},
+        {"source":"Algeria","target":"Africa"},
+        {"source":"Andorra","target":"Europe"},
+        {"source":"Angola","target":"Africa"},
+        {"source":"Antigua and Barbuda","target":"North America"},
+        {"source":"Argentina","target":"South America"},
+        {"source":"Armenia","target":"Asia"},
+        {"source":"Australia","target":"Oceania"},
+        {"source":"Austria","target":"Europe"},
+        {"source":"Azerbaijan","target":"Asia"},
+        {"source":"Bahamas","target":"North America"},
+        {"source":"Bahrain","target":"Asia"},
+        {"source":"Bangladesh","target":"Asia"},
+        {"source":"Barbados","target":"North America"},
+        {"source":"Belarus","target":"Europe"},
+        {"source":"Belgium","target":"Europe"},
+        {"source":"Belize","target":"North America"},
+        {"source":"Benin","target":"Africa"},
+        {"source":"Bhutan","target":"Asia"},
+        {"source":"Bolivia","target":"South America"},
+        {"source":"Bosnia and Herzegovina","target":"Europe"},
+        {"source":"Botswana","target":"Africa"},
+        {"source":"Brazil","target":"South America"},
+        {"source":"Brunei","target":"Asia"},
+        {"source":"Bulgaria","target":"Europe"},
+        {"source":"Burkina Faso","target":"Africa"},
+        {"source":"Burundi","target":"Africa"},
+        {"source":"Cambodia","target":"Asia"},
+        {"source":"Cameroon","target":"Africa"},
+        {"source":"Canada","target":"North America"},
+        {"source":"Cape Verde","target":"Africa"},
+        {"source":"Central African Republic","target":"Africa"},
+        {"source":"Chad","target":"Africa"},
+        {"source":"Chile","target":"South America"},
+        {"source":"China","target":"Asia"},
+        {"source":"Colombia","target":"South America"},
+        {"source":"Comoros","target":"Africa"},
+        {"source":"Congo","target":"Africa"},
+        {"source":"Costa Rica","target":"North America"},
+        {"source":"Croatia","target":"Europe"},
+        {"source":"Cuba","target":"North America"},
+        {"source":"Cyprus","target":"Asia"},
+        {"source":"Czech Republic","target":"Europe"},
+        {"source":"Denmark","target":"Europe"},
+        {"source":"Djibouti","target":"Africa"},
+        {"source":"Dominica","target":"North America"},
+        {"source":"Dominican Republic","target":"North America"},
+        {"source":"Ecuador","target":"South America"},
+        {"source":"Egypt","target":"Africa"},
+        {"source":"El Salvador","target":"North America"},
+        {"source":"Equatorial Guinea","target":"Africa"},
+        {"source":"Eritrea","target":"Africa"},
+        {"source":"Estonia","target":"Europe"},
+        {"source":"Ethiopia","target":"Africa"},
+        {"source":"Fiji Islands","target":"Oceania"},
+        {"source":"Finland","target":"Europe"},
+        {"source":"France","target":"Europe"},
+        {"source":"Gabon","target":"Africa"},
+        {"source":"Gambia","target":"Africa"},
+        {"source":"Georgia","target":"Asia"},
+        {"source":"Germany","target":"Europe"},
+        {"source":"Ghana","target":"Africa"},
+        {"source":"Greece","target":"Europe"},
+        {"source":"Grenada","target":"North America"},
+        {"source":"Guatemala","target":"North America"},
+        {"source":"Guinea","target":"Africa"},
+        {"source":"Guinea-Bissau","target":"Africa"},
+        {"source":"Guyana","target":"South America"},
+        {"source":"Haiti","target":"North America"},
+        {"source":"Holy See (Vatican City State)","target":"Europe"},
+        {"source":"Honduras","target":"North America"},
+        {"source":"Hungary","target":"Europe"},
+        {"source":"Iceland","target":"Europe"},
+        {"source":"India","target":"Asia"},
+        {"source":"Indonesia","target":"Asia"},
+        {"source":"Iran","target":"Asia"},
+        {"source":"Iraq","target":"Asia"},
+        {"source":"Ireland","target":"Europe"},
+        {"source":"Israel","target":"Asia"},
+        {"source":"Italy","target":"Europe"},
+        {"source":"Ivory Coast","target":"Africa"},
+        {"source":"Jamaica","target":"North America"},
+        {"source":"Japan","target":"Asia"},
+        {"source":"Jordan","target":"Asia"},
+        {"source":"Kazakhstan","target":"Asia"},
+        {"source":"Kenya","target":"Africa"},
+        {"source":"Kiribati","target":"Oceania"},
+        {"source":"Kuwait","target":"Asia"},
+        {"source":"Kyrgyzstan","target":"Asia"},
+        {"source":"Laos","target":"Asia"},
+        {"source":"Latvia","target":"Europe"},
+        {"source":"Lebanon","target":"Asia"},
+        {"source":"Lesotho","target":"Africa"},
+        {"source":"Liberia","target":"Africa"},
+        {"source":"Libya","target":"Africa"},
+        {"source":"Liechtenstein","target":"Europe"},
+        {"source":"Lithuania","target":"Europe"},
+        {"source":"Luxembourg","target":"Europe"},
+        {"source":"North Macedonia","target":"Europe"},
+        {"source":"Madagascar","target":"Africa"},
+        {"source":"Malawi","target":"Africa"},
+        {"source":"Malaysia","target":"Asia"},
+        {"source":"Maldives","target":"Asia"},
+        {"source":"Mali","target":"Africa"},
+        {"source":"Malta","target":"Europe"},
+        {"source":"Marshall Islands","target":"Oceania"},
+        {"source":"Mauritania","target":"Africa"},
+        {"source":"Mauritius","target":"Africa"},
+        {"source":"Mexico","target":"North America"},
+        {"source":"Micronesia","target":"Oceania"},
+        {"source":"Moldova","target":"Europe"},
+        {"source":"Monaco","target":"Europe"},
+        {"source":"Mongolia","target":"Asia"},
+        {"source":"Montenegro","target":"Europe"},
+        {"source":"Morocco","target":"Africa"},
+        {"source":"Mozambique","target":"Africa"},
+        {"source":"Myanmar","target":"Asia"},
+        {"source":"Namibia","target":"Africa"},
+        {"source":"Nauru","target":"Oceania"},
+        {"source":"Nepal","target":"Asia"},
+        {"source":"Netherlands","target":"Europe"},
+        {"source":"New Zealand","target":"Oceania"},
+        {"source":"Nicaragua","target":"North America"},
+        {"source":"Niger","target":"Africa"},
+        {"source":"Nigeria","target":"Africa"},
+        {"source":"North Korea","target":"Asia"},
+        {"source":"Norway","target":"Europe"},
+        {"source":"Oman","target":"Asia"},
+        {"source":"Pakistan","target":"Asia"},
+        {"source":"Palau","target":"Oceania"},
+        {"source":"Palestine","target":"Asia"},
+        {"source":"Panama","target":"North America"},
+        {"source":"Papua New Guinea","target":"Oceania"},
+        {"source":"Paraguay","target":"South America"},
+        {"source":"Peru","target":"South America"},
+        {"source":"Philippines","target":"Asia"},
+        {"source":"Poland","target":"Europe"},
+        {"source":"Portugal","target":"Europe"},
+        {"source":"Qatar","target":"Asia"},
+        {"source":"Romania","target":"Europe"},
+        {"source":"Russia","target":"Europe"},
+        {"source":"Rwanda","target":"Africa"},
+        {"source":"Saint Kitts and Nevis","target":"North America"},
+        {"source":"Saint Lucia","target":"North America"},
+        {"source":"Saint Vincent and the Grenadines","target":"North America"},
+        {"source":"Samoa","target":"Oceania"},
+        {"source":"San Marino","target":"Europe"},
+        {"source":"Sao Tome and Principe","target":"Africa"},
+        {"source":"Saudi Arabia","target":"Asia"},
+        {"source":"Senegal","target":"Africa"},
+        {"source":"Seychelles","target":"Africa"},
+        {"source":"Sierra Leone","target":"Africa"},
+        {"source":"Singapore","target":"Asia"},
+        {"source":"Slovakia","target":"Europe"},
+        {"source":"Slovenia","target":"Europe"},
+        {"source":"Solomon Islands","target":"Oceania"},
+        {"source":"Somalia","target":"Africa"},
+        {"source":"South Africa","target":"Africa"},
+        {"source":"South Korea","target":"Asia"},
+        {"source":"South Sudan","target":"Africa"},
+        {"source":"Spain","target":"Europe"},
+        {"source":"Sri Lanka","target":"Asia"},
+        {"source":"Sudan","target":"Africa"},
+        {"source":"Suriname","target":"South America"},
+        {"source":"Eswatini","target":"Africa"},
+        {"source":"Sweden","target":"Europe"},
+        {"source":"Switzerland","target":"Europe"},
+        {"source":"Syria","target":"Asia"},
+        {"source":"Taiwan","target":"Asia"},
+        {"source":"Tajikistan","target":"Asia"},
+        {"source":"Tanzania","target":"Africa"},
+        {"source":"Thailand","target":"Asia"},
+        {"source":"Democratic Republic of the Congo","target":"Africa"},
+        {"source":"Timor-Leste","target":"Africa"},
+        {"source":"Togo","target":"Africa"},
+        {"source":"Tonga","target":"Oceania"},
+        {"source":"Trinidad and Tobago","target":"North America"},
+        {"source":"Tunisia","target":"Africa"},
+        {"source":"Turkey","target":"Asia"},
+        {"source":"Turkmenistan","target":"Asia"},
+        {"source":"Tuvalu","target":"Oceania"},
+        {"source":"Uganda","target":"Africa"},
+        {"source":"Ukraine","target":"Europe"},
+        {"source":"United Arab Emirates","target":"Asia"},
+        {"source":"United Kingdom","target":"Europe"},
+        {"source":"United States of America","target":"North America"},
+        {"source":"Uruguay","target":"South America"},
+        {"source":"Uzbekistan","target":"Asia"},
+        {"source":"Vanuatu","target":"Oceania"},
+        {"source":"Venezuela","target":"South America"},
+        {"source":"Vietnam","target":"Asia"},
+        {"source":"Yemen","target":"Asia"},
+        {"source":"Serbia","target":"Europe"},
+        {"source":"Zambia","target":"Africa"},
+        {"source":"Zimbabwe","target":"Africa"},
+
+
+
+        {"source":"Afghanistan","target":"China"},
+        {"source":"Afghanistan","target":"Iran"},
+        {"source":"Afghanistan","target":"Pakistan"},
+        {"source":"Afghanistan","target":"Tajikistan"},
+        {"source":"Afghanistan","target":"Turkmenistan"},
+        {"source":"Afghanistan","target":"Uzbekistan"},
+        {"source":"Albania","target":"Greece"},
+        {"source":"Albania","target":"North Macedonia"},
+        {"source":"Albania","target":"Montenegro"},
+        {"source":"Albania","target":"Serbia"},
+        {"source":"Algeria","target":"Libya"},
+        {"source":"Algeria","target":"Mali"},
+        {"source":"Algeria","target":"Mauritania"},
+        {"source":"Algeria","target":"Morocco"},
+        {"source":"Algeria","target":"Niger"},
+        {"source":"Algeria","target":"Tunisia"},
+        {"source":"Andorra","target":"France"},
+        {"source":"Andorra","target":"Spain"},
+        {"source":"Angola","target":"Congo"},
+        {"source":"Angola","target":"Democratic Republic of the Congo"},
+        {"source":"Angola","target":"Namibia"},
+        {"source":"Angola","target":"Zambia"},
+        {"source":"Argentina","target":"Bolivia"},
+        {"source":"Argentina","target":"Brazil"},
+        {"source":"Argentina","target":"Chile"},
+        {"source":"Argentina","target":"Paraguay"},
+        {"source":"Argentina","target":"Uruguay"},
+        {"source":"Armenia","target":"Azerbaijan"},
+        {"source":"Armenia","target":"Georgia"},
+        {"source":"Armenia","target":"Iran"},
+        {"source":"Armenia","target":"Turkey"},
+        {"source":"Australia","target":"Papua New Guinea"},
+        {"source":"Austria","target":"Czech Republic"},
+        {"source":"Austria","target":"Germany"},
+        {"source":"Austria","target":"Hungary"},
+        {"source":"Austria","target":"Italy"},
+        {"source":"Austria","target":"Liechtenstein"},
+        {"source":"Austria","target":"Slovakia"},
+        {"source":"Austria","target":"Slovenia"},
+        {"source":"Austria","target":"Switzerland"},
+        {"source":"Azerbaijan","target":"Armenia"},
+        {"source":"Azerbaijan","target":"Georgia"},
+        {"source":"Azerbaijan","target":"Iran"},
+        {"source":"Azerbaijan","target":"Russia"},
+        {"source":"Azerbaijan","target":"Turkey"},
+        {"source":"Bahrain","target":"Qatar"},
+        {"source":"Bahrain","target":"Saudi Arabia"},
+        {"source":"Bangladesh","target":"India"},
+        {"source":"Bangladesh","target":"Myanmar"},
+        {"source":"Belarus","target":"Latvia"},
+        {"source":"Belarus","target":"Lithuania"},
+        {"source":"Belarus","target":"Poland"},
+        {"source":"Belarus","target":"Russia"},
+        {"source":"Belarus","target":"Ukraine"},
+        {"source":"Belgium","target":"France"},
+        {"source":"Belgium","target":"Germany"},
+        {"source":"Belgium","target":"Luxembourg"},
+        {"source":"Belgium","target":"Netherlands"},
+        {"source":"Belize","target":"Guatemala"},
+        {"source":"Belize","target":"Mexico"},
+        {"source":"Benin","target":"Burkina Faso"},
+        {"source":"Benin","target":"Niger"},
+        {"source":"Benin","target":"Nigeria"},
+        {"source":"Benin","target":"Togo"},
+        {"source":"Bhutan","target":"China"},
+        {"source":"Bhutan","target":"India"},
+        {"source":"Bolivia","target":"Argentina"},
+        {"source":"Bolivia","target":"Brazil"},
+        {"source":"Bolivia","target":"Chile"},
+        {"source":"Bolivia","target":"Paraguay"},
+        {"source":"Bolivia","target":"Peru"},
+        {"source":"Bosnia and Herzegovina","target":"Croatia"},
+        {"source":"Bosnia and Herzegovina","target":"Montenegro"},
+        {"source":"Bosnia and Herzegovina","target":"Serbia"},
+        {"source":"Botswana","target":"Namibia"},
+        {"source":"Botswana","target":"South Africa"},
+        {"source":"Botswana","target":"Zambia"},
+        {"source":"Botswana","target":"Zimbabwe"},
+        {"source":"Brazil","target":"Argentina"},
+        {"source":"Brazil","target":"Bolivia"},
+        {"source":"Brazil","target":"Colombia"},
+        {"source":"Brazil","target":"Guyana"},
+        {"source":"Brazil","target":"Paraguay"},
+        {"source":"Brazil","target":"Peru"},
+        {"source":"Brazil","target":"Suriname"},
+        {"source":"Brazil","target":"Uruguay"},
+        {"source":"Brazil","target":"Venezuela"},
+        {"source":"Brunei","target":"Malaysia"},
+        {"source":"Bulgaria","target":"Greece"},
+        {"source":"Bulgaria","target":"North Macedonia"},
+        {"source":"Bulgaria","target":"Romania"},
+        {"source":"Bulgaria","target":"Turkey"},
+        {"source":"Bulgaria","target":"Serbia"},
+        {"source":"Burkina Faso","target":"Benin"},
+        {"source":"Burkina Faso","target":"Ghana"},
+        {"source":"Burkina Faso","target":"Ivory Coast"},
+        {"source":"Burkina Faso","target":"Mali"},
+        {"source":"Burkina Faso","target":"Niger"},
+        {"source":"Burkina Faso","target":"Togo"},
+        {"source":"Burundi","target":"Democratic Republic of the Congo"},
+        {"source":"Burundi","target":"Rwanda"},
+        {"source":"Burundi","target":"Tanzania"},
+        {"source":"Cambodia","target":"Laos"},
+        {"source":"Cambodia","target":"Thailand"},
+        {"source":"Cambodia","target":"Vietnam"},
+        {"source":"Cameroon","target":"Central African Republic"},
+        {"source":"Cameroon","target":"Chad"},
+        {"source":"Cameroon","target":"Congo"},
+        {"source":"Cameroon","target":"Equatorial Guinea"},
+        {"source":"Cameroon","target":"Gabon"},
+        {"source":"Cameroon","target":"Nigeria"},
+        {"source":"Canada","target":"United States of America"},
+        {"source":"Central African Republic","target":"Cameroon"},
+        {"source":"Central African Republic","target":"Chad"},
+        {"source":"Central African Republic","target":"Congo"},
+        {"source":"Central African Republic","target":"Democratic Republic of the Congo"},
+        {"source":"Central African Republic","target":"Sudan"},
+        {"source":"Chad","target":"Cameroon"},
+        {"source":"Chad","target":"Central African Republic"},
+        {"source":"Chad","target":"Libya"},
+        {"source":"Chad","target":"Niger"},
+        {"source":"Chad","target":"Nigeria"},
+        {"source":"Chad","target":"Sudan"},
+        {"source":"Chile","target":"Argentina"},
+        {"source":"Chile","target":"Bolivia"},
+        {"source":"Chile","target":"Peru"},
+        {"source":"China","target":"Afghanistan"},
+        {"source":"China","target":"Bhutan"},
+        {"source":"China","target":"India"},
+        {"source":"China","target":"Kazakhstan"},
+        {"source":"China","target":"Kyrgyzstan"},
+        {"source":"China","target":"Laos"},
+        {"source":"China","target":"Mongolia"},
+        {"source":"China","target":"Myanmar"},
+        {"source":"China","target":"Nepal"},
+        {"source":"China","target":"North Korea"},
+        {"source":"China","target":"Pakistan"},
+        {"source":"China","target":"Russia"},
+        {"source":"China","target":"Taiwan"},
+        {"source":"China","target":"Tajikistan"},
+        {"source":"China","target":"Vietnam"},
+        {"source":"Colombia","target":"Brazil"},
+        {"source":"Colombia","target":"Ecuador"},
+        {"source":"Colombia","target":"Panama"},
+        {"source":"Colombia","target":"Peru"},
+        {"source":"Colombia","target":"Venezuela"},
+        {"source":"Congo","target":"Angola"},
+        {"source":"Congo","target":"Cameroon"},
+        {"source":"Congo","target":"Central African Republic"},
+        {"source":"Congo","target":"Democratic Republic of the Congo"},
+        {"source":"Congo","target":"Gabon"},
+        {"source":"Costa Rica","target":"Nicaragua"},
+        {"source":"Costa Rica","target":"Panama"},
+        {"source":"Croatia","target":"Bosnia and Herzegovina"},
+        {"source":"Croatia","target":"Hungary"},
+        {"source":"Croatia","target":"Italy"},
+        {"source":"Croatia","target":"Montenegro"},
+        {"source":"Croatia","target":"Slovenia"},
+        {"source":"Croatia","target":"Serbia"},
+        {"source":"Cyprus","target":"Turkey"},
+        {"source":"Czech Republic","target":"Austria"},
+        {"source":"Czech Republic","target":"Germany"},
+        {"source":"Czech Republic","target":"Poland"},
+        {"source":"Czech Republic","target":"Slovakia"},
+        {"source":"Denmark","target":"Germany"},
+        {"source":"Denmark","target":"Sweden"},
+        {"source":"Djibouti","target":"Eritrea"},
+        {"source":"Djibouti","target":"Ethiopia"},
+        {"source":"Djibouti","target":"Somalia"},
+        {"source":"Djibouti","target":"Yemen"},
+        {"source":"Dominican Republic","target":"Haiti"},
+        {"source":"Ecuador","target":"Colombia"},
+        {"source":"Ecuador","target":"Peru"},
+        {"source":"Egypt","target":"Israel"},
+        {"source":"Egypt","target":"Jordan"},
+        {"source":"Egypt","target":"Libya"},
+        {"source":"Egypt","target":"Saudi Arabia"},
+        {"source":"Egypt","target":"Sudan"},
+        {"source":"El Salvador","target":"Guatemala"},
+        {"source":"El Salvador","target":"Honduras"},
+        {"source":"El Salvador","target":"Nicaragua"},
+        {"source":"Equatorial Guinea","target":"Cameroon"},
+        {"source":"Equatorial Guinea","target":"Gabon"},
+        {"source":"Eritrea","target":"Djibouti"},
+        {"source":"Eritrea","target":"Ethiopia"},
+        {"source":"Eritrea","target":"Sudan"},
+        {"source":"Eritrea","target":"Yemen"},
+        {"source":"Estonia","target":"Finland"},
+        {"source":"Estonia","target":"Latvia"},
+        {"source":"Estonia","target":"Russia"},
+        {"source":"Ethiopia","target":"Djibouti"},
+        {"source":"Ethiopia","target":"Eritrea"},
+        {"source":"Ethiopia","target":"Kenya"},
+        {"source":"Ethiopia","target":"Somalia"},
+        {"source":"Ethiopia","target":"Sudan"},
+        {"source":"Finland","target":"Estonia"},
+        {"source":"Finland","target":"Norway"},
+        {"source":"Finland","target":"Russia"},
+        {"source":"Finland","target":"Sweden"},
+        {"source":"France","target":"Andorra"},
+        {"source":"France","target":"Belgium"},
+        {"source":"France","target":"Germany"},
+        {"source":"France","target":"Italy"},
+        {"source":"France","target":"Luxembourg"},
+        {"source":"France","target":"Monaco"},
+        {"source":"France","target":"Spain"},
+        {"source":"France","target":"Switzerland"},
+        {"source":"France","target":"United Kingdom"},
+        {"source":"Gabon","target":"Cameroon"},
+        {"source":"Gabon","target":"Congo"},
+        {"source":"Gabon","target":"Equatorial Guinea"},
+        {"source":"Gambia","target":"Senegal"},
+        {"source":"Georgia","target":"Armenia"},
+        {"source":"Georgia","target":"Azerbaijan"},
+        {"source":"Georgia","target":"Russia"},
+        {"source":"Georgia","target":"Turkey"},
+        {"source":"Germany","target":"Austria"},
+        {"source":"Germany","target":"Belgium"},
+        {"source":"Germany","target":"Czech Republic"},
+        {"source":"Germany","target":"Denmark"},
+        {"source":"Germany","target":"France"},
+        {"source":"Germany","target":"Luxembourg"},
+        {"source":"Germany","target":"Netherlands"},
+        {"source":"Germany","target":"Poland"},
+        {"source":"Germany","target":"Switzerland"},
+        {"source":"Ghana","target":"Burkina Faso"},
+        {"source":"Ghana","target":"Ivory Coast"},
+        {"source":"Ghana","target":"Togo"},
+        {"source":"Greece","target":"Albania"},
+        {"source":"Greece","target":"Bulgaria"},
+        {"source":"Greece","target":"North Macedonia"},
+        {"source":"Greece","target":"Turkey"},
+        {"source":"Grenada","target":"Saint Vincent and the Grenadines"},
+        {"source":"Guatemala","target":"Belize"},
+        {"source":"Guatemala","target":"El Salvador"},
+        {"source":"Guatemala","target":"Honduras"},
+        {"source":"Guatemala","target":"Mexico"},
+        {"source":"Guinea","target":"Guinea-Bissau"},
+        {"source":"Guinea","target":"Ivory Coast"},
+        {"source":"Guinea","target":"Liberia"},
+        {"source":"Guinea","target":"Mali"},
+        {"source":"Guinea","target":"Senegal"},
+        {"source":"Guinea","target":"Sierra Leone"},
+        {"source":"Guinea-Bissau","target":"Guinea"},
+        {"source":"Guinea-Bissau","target":"Senegal"},
+        {"source":"Guyana","target":"Brazil"},
+        {"source":"Guyana","target":"Suriname"},
+        {"source":"Guyana","target":"Venezuela"},
+        {"source":"Haiti","target":"Dominican Republic"},
+        {"source":"Holy See (Vatican City State)","target":"Italy"},
+        {"source":"Honduras","target":"El Salvador"},
+        {"source":"Honduras","target":"Guatemala"},
+        {"source":"Honduras","target":"Nicaragua"},
+        {"source":"Hungary","target":"Austria"},
+        {"source":"Hungary","target":"Croatia"},
+        {"source":"Hungary","target":"Romania"},
+        {"source":"Hungary","target":"Slovakia"},
+        {"source":"Hungary","target":"Slovenia"},
+        {"source":"Hungary","target":"Ukraine"},
+        {"source":"Hungary","target":"Serbia"},
+        {"source":"India","target":"Bangladesh"},
+        {"source":"India","target":"Bhutan"},
+        {"source":"India","target":"China"},
+        {"source":"India","target":"Myanmar"},
+        {"source":"India","target":"Nepal"},
+        {"source":"India","target":"Pakistan"},
+        {"source":"India","target":"Sri Lanka"},
+        {"source":"Indonesia","target":"Timor-Leste"},
+        {"source":"Indonesia","target":"Malaysia"},
+        {"source":"Indonesia","target":"Papua New Guinea"},
+        {"source":"Indonesia","target":"Singapore"},
+        {"source":"Iran","target":"Afghanistan"},
+        {"source":"Iran","target":"Armenia"},
+        {"source":"Iran","target":"Azerbaijan"},
+        {"source":"Iran","target":"Iraq"},
+        {"source":"Iran","target":"Kuwait"},
+        {"source":"Iran","target":"Pakistan"},
+        {"source":"Iran","target":"Turkey"},
+        {"source":"Iran","target":"Turkmenistan"},
+        {"source":"Iraq","target":"Iran"},
+        {"source":"Iraq","target":"Jordan"},
+        {"source":"Iraq","target":"Kuwait"},
+        {"source":"Iraq","target":"Saudi Arabia"},
+        {"source":"Iraq","target":"Syria"},
+        {"source":"Iraq","target":"Turkey"},
+        {"source":"Ireland","target":"United Kingdom"},
+        {"source":"Israel","target":"Egypt"},
+        {"source":"Israel","target":"Jordan"},
+        {"source":"Israel","target":"Lebanon"},
+        {"source":"Israel","target":"Saudi Arabia"},
+        {"source":"Israel","target":"Syria"},
+        {"source":"Italy","target":"Austria"},
+        {"source":"Italy","target":"Croatia"},
+        {"source":"Italy","target":"France"},
+        {"source":"Italy","target":"San Marino"},
+        {"source":"Italy","target":"Slovenia"},
+        {"source":"Italy","target":"Switzerland"},
+        {"source":"Ivory Coast","target":"Burkina Faso"},
+        {"source":"Ivory Coast","target":"Ghana"},
+        {"source":"Ivory Coast","target":"Guinea"},
+        {"source":"Ivory Coast","target":"Liberia"},
+        {"source":"Ivory Coast","target":"Mali"},
+        {"source":"Japan","target":"Russia"},
+        {"source":"Jordan","target":"Egypt"},
+        {"source":"Jordan","target":"Iraq"},
+        {"source":"Jordan","target":"Israel"},
+        {"source":"Jordan","target":"Saudi Arabia"},
+        {"source":"Jordan","target":"Syria"},
+        {"source":"Kazakhstan","target":"China"},
+        {"source":"Kazakhstan","target":"Kyrgyzstan"},
+        {"source":"Kazakhstan","target":"Russia"},
+        {"source":"Kazakhstan","target":"Turkmenistan"},
+        {"source":"Kazakhstan","target":"Uzbekistan"},
+        {"source":"Kenya","target":"Ethiopia"},
+        {"source":"Kenya","target":"Somalia"},
+        {"source":"Kenya","target":"Sudan"},
+        {"source":"Kenya","target":"Tanzania"},
+        {"source":"Kenya","target":"Uganda"},
+        {"source":"Kuwait","target":"Iran"},
+        {"source":"Kuwait","target":"Iraq"},
+        {"source":"Kuwait","target":"Saudi Arabia"},
+        {"source":"Kyrgyzstan","target":"China"},
+        {"source":"Kyrgyzstan","target":"Kazakhstan"},
+        {"source":"Kyrgyzstan","target":"Tajikistan"},
+        {"source":"Kyrgyzstan","target":"Uzbekistan"},
+        {"source":"Laos","target":"Cambodia"},
+        {"source":"Laos","target":"China"},
+        {"source":"Laos","target":"Myanmar"},
+        {"source":"Laos","target":"Thailand"},
+        {"source":"Laos","target":"Vietnam"},
+        {"source":"Latvia","target":"Belarus"},
+        {"source":"Latvia","target":"Estonia"},
+        {"source":"Latvia","target":"Lithuania"},
+        {"source":"Latvia","target":"Russia"},
+        {"source":"Lebanon","target":"Israel"},
+        {"source":"Lebanon","target":"Syria"},
+        {"source":"Lesotho","target":"South Africa"},
+        {"source":"Liberia","target":"Guinea"},
+        {"source":"Liberia","target":"Ivory Coast"},
+        {"source":"Liberia","target":"Sierra Leone"},
+        {"source":"Libya","target":"Algeria"},
+        {"source":"Libya","target":"Chad"},
+        {"source":"Libya","target":"Egypt"},
+        {"source":"Libya","target":"Niger"},
+        {"source":"Libya","target":"Sudan"},
+        {"source":"Libya","target":"Tunisia"},
+        {"source":"Liechtenstein","target":"Austria"},
+        {"source":"Liechtenstein","target":"Switzerland"},
+        {"source":"Lithuania","target":"Belarus"},
+        {"source":"Lithuania","target":"Latvia"},
+        {"source":"Lithuania","target":"Poland"},
+        {"source":"Lithuania","target":"Russia"},
+        {"source":"Luxembourg","target":"Belgium"},
+        {"source":"Luxembourg","target":"France"},
+        {"source":"Luxembourg","target":"Germany"},
+        {"source":"Malawi","target":"Mozambique"},
+        {"source":"Malawi","target":"Tanzania"},
+        {"source":"Malawi","target":"Zambia"},
+        {"source":"Malaysia","target":"Brunei"},
+        {"source":"Malaysia","target":"Indonesia"},
+        {"source":"Malaysia","target":"Philippines"},
+        {"source":"Malaysia","target":"Singapore"},
+        {"source":"Malaysia","target":"Thailand"},
+        {"source":"Mali","target":"Algeria"},
+        {"source":"Mali","target":"Burkina Faso"},
+        {"source":"Mali","target":"Guinea"},
+        {"source":"Mali","target":"Ivory Coast"},
+        {"source":"Mali","target":"Mauritania"},
+        {"source":"Mali","target":"Niger"},
+        {"source":"Mali","target":"Senegal"},
+        {"source":"Mauritania","target":"Algeria"},
+        {"source":"Mauritania","target":"Mali"},
+        {"source":"Mauritania","target":"Morocco"},
+        {"source":"Mauritania","target":"Senegal"},
+        {"source":"Mexico","target":"Belize"},
+        {"source":"Mexico","target":"Guatemala"},
+        {"source":"Mexico","target":"United States of America"},
+        {"source":"Moldova","target":"Romania"},
+        {"source":"Moldova","target":"Ukraine"},
+        {"source":"Monaco","target":"France"},
+        {"source":"Mongolia","target":"China"},
+        {"source":"Mongolia","target":"Russia"},
+        {"source":"Montenegro","target":"Albania"},
+        {"source":"Montenegro","target":"Bosnia and Herzegovina"},
+        {"source":"Montenegro","target":"Croatia"},
+        {"source":"Montenegro","target":"Serbia"},
+        {"source":"Morocco","target":"Algeria"},
+        {"source":"Morocco","target":"Mauritania"},
+        {"source":"Morocco","target":"Spain"},
+        {"source":"Mozambique","target":"Malawi"},
+        {"source":"Mozambique","target":"South Africa"},
+        {"source":"Mozambique","target":"Eswatini"},
+        {"source":"Mozambique","target":"Tanzania"},
+        {"source":"Mozambique","target":"Zambia"},
+        {"source":"Mozambique","target":"Zimbabwe"},
+        {"source":"Myanmar","target":"Bangladesh"},
+        {"source":"Myanmar","target":"China"},
+        {"source":"Myanmar","target":"India"},
+        {"source":"Myanmar","target":"Laos"},
+        {"source":"Myanmar","target":"Pakistan"},
+        {"source":"Myanmar","target":"Thailand"},
+        {"source":"Namibia","target":"Angola"},
+        {"source":"Namibia","target":"Botswana"},
+        {"source":"Namibia","target":"South Africa"},
+        {"source":"Namibia","target":"Zambia"},
+        {"source":"Nepal","target":"China"},
+        {"source":"Nepal","target":"India"},
+        {"source":"Netherlands","target":"Belgium"},
+        {"source":"Netherlands","target":"Germany"},
+        {"source":"Nicaragua","target":"Costa Rica"},
+        {"source":"Nicaragua","target":"El Salvador"},
+        {"source":"Nicaragua","target":"Honduras"},
+        {"source":"Niger","target":"Algeria"},
+        {"source":"Niger","target":"Benin"},
+        {"source":"Niger","target":"Burkina Faso"},
+        {"source":"Niger","target":"Chad"},
+        {"source":"Niger","target":"Libya"},
+        {"source":"Niger","target":"Mali"},
+        {"source":"Niger","target":"Nigeria"},
+        {"source":"Nigeria","target":"Benin"},
+        {"source":"Nigeria","target":"Cameroon"},
+        {"source":"Nigeria","target":"Chad"},
+        {"source":"Nigeria","target":"Niger"},
+        {"source":"North Korea","target":"China"},
+        {"source":"North Korea","target":"Russia"},
+        {"source":"North Korea","target":"South Korea"},
+        {"source":"Norway","target":"Finland"},
+        {"source":"Norway","target":"Russia"},
+        {"source":"Norway","target":"Sweden"},
+        {"source":"Oman","target":"Saudi Arabia"},
+        {"source":"Oman","target":"United Arab Emirates"},
+        {"source":"Oman","target":"Yemen"},
+        {"source":"Pakistan","target":"Afghanistan"},
+        {"source":"Pakistan","target":"China"},
+        {"source":"Pakistan","target":"India"},
+        {"source":"Pakistan","target":"Iran"},
+        {"source":"Pakistan","target":"Myanmar"},
+        {"source":"Palestine","target":"Egypt"},
+        {"source":"Palestine","target":"Jordan"},
+        {"source":"Palestine","target":"Israel"},
+        {"source":"Panama","target":"Colombia"},
+        {"source":"Panama","target":"Costa Rica"},
+        {"source":"Papua New Guinea","target":"Australia"},
+        {"source":"Papua New Guinea","target":"Indonesia"},
+        {"source":"Papua New Guinea","target":"Solomon Islands"},
+        {"source":"Paraguay","target":"Argentina"},
+        {"source":"Paraguay","target":"Bolivia"},
+        {"source":"Paraguay","target":"Brazil"},
+        {"source":"Peru","target":"Bolivia"},
+        {"source":"Peru","target":"Brazil"},
+        {"source":"Peru","target":"Chile"},
+        {"source":"Peru","target":"Colombia"},
+        {"source":"Peru","target":"Ecuador"},
+        {"source":"Philippines","target":"Malaysia"},
+        {"source":"Poland","target":"Belarus"},
+        {"source":"Poland","target":"Czech Republic"},
+        {"source":"Poland","target":"Germany"},
+        {"source":"Poland","target":"Lithuania"},
+        {"source":"Poland","target":"Russia"},
+        {"source":"Poland","target":"Slovakia"},
+        {"source":"Poland","target":"Ukraine"},
+        {"source":"Portugal","target":"Spain"},
+        {"source":"Qatar","target":"Bahrain"},
+        {"source":"Qatar","target":"Saudi Arabia"},
+        {"source":"Qatar","target":"United Arab Emirates"},
+        {"source":"Romania","target":"Bulgaria"},
+        {"source":"Romania","target":"Hungary"},
+        {"source":"Romania","target":"Moldova"},
+        {"source":"Romania","target":"Ukraine"},
+        {"source":"Romania","target":"Serbia"},
+        {"source":"Russia","target":"Azerbaijan"},
+        {"source":"Russia","target":"Belarus"},
+        {"source":"Russia","target":"China"},
+        {"source":"Russia","target":"Estonia"},
+        {"source":"Russia","target":"Finland"},
+        {"source":"Russia","target":"Georgia"},
+        {"source":"Russia","target":"Japan"},
+        {"source":"Russia","target":"Kazakhstan"},
+        {"source":"Russia","target":"Latvia"},
+        {"source":"Russia","target":"Lithuania"},
+        {"source":"Russia","target":"Mongolia"},
+        {"source":"Russia","target":"North Korea"},
+        {"source":"Russia","target":"Norway"},
+        {"source":"Russia","target":"Poland"},
+        {"source":"Russia","target":"Ukraine"},
+        {"source":"Russia","target":"United States of America"},
+        {"source":"Rwanda","target":"Burundi"},
+        {"source":"Rwanda","target":"Democratic Republic of the Congo"},
+        {"source":"Rwanda","target":"Tanzania"},
+        {"source":"Rwanda","target":"Uganda"},
+        {"source":"San Marino","target":"Italy"},
+        {"source":"Saudi Arabia","target":"Bahrain"},
+        {"source":"Saudi Arabia","target":"Egypt"},
+        {"source":"Saudi Arabia","target":"Iraq"},
+        {"source":"Saudi Arabia","target":"Israel"},
+        {"source":"Saudi Arabia","target":"Jordan"},
+        {"source":"Saudi Arabia","target":"Kuwait"},
+        {"source":"Saudi Arabia","target":"Oman"},
+        {"source":"Saudi Arabia","target":"Qatar"},
+        {"source":"Saudi Arabia","target":"United Arab Emirates"},
+        {"source":"Saudi Arabia","target":"Yemen"},
+        {"source":"Senegal","target":"Gambia"},
+        {"source":"Senegal","target":"Guinea"},
+        {"source":"Senegal","target":"Guinea-Bissau"},
+        {"source":"Senegal","target":"Mali"},
+        {"source":"Senegal","target":"Mauritania"},
+        {"source":"Sierra Leone","target":"Guinea"},
+        {"source":"Sierra Leone","target":"Liberia"},
+        {"source":"Singapore","target":"Indonesia"},
+        {"source":"Singapore","target":"Malaysia"},
+        {"source":"Slovakia","target":"Austria"},
+        {"source":"Slovakia","target":"Czech Republic"},
+        {"source":"Slovakia","target":"Hungary"},
+        {"source":"Slovakia","target":"Poland"},
+        {"source":"Slovakia","target":"Ukraine"},
+        {"source":"Slovenia","target":"Austria"},
+        {"source":"Slovenia","target":"Croatia"},
+        {"source":"Slovenia","target":"Hungary"},
+        {"source":"Slovenia","target":"Italy"},
+        {"source":"Solomon Islands","target":"Papua New Guinea"},
+        {"source":"Somalia","target":"Djibouti"},
+        {"source":"Somalia","target":"Ethiopia"},
+        {"source":"Somalia","target":"Kenya"},
+        {"source":"South Africa","target":"Botswana"},
+        {"source":"South Africa","target":"Lesotho"},
+        {"source":"South Africa","target":"Mozambique"},
+        {"source":"South Africa","target":"Namibia"},
+        {"source":"South Africa","target":"Eswatini"},
+        {"source":"South Africa","target":"Zimbabwe"},
+        {"source":"South Korea","target":"North Korea"},
+        {"source":"Spain","target":"Andorra"},
+        {"source":"Spain","target":"France"},
+        {"source":"Spain","target":"Morocco"},
+        {"source":"Spain","target":"Portugal"},
+        {"source":"Sri Lanka","target":"India"},
+        {"source":"Sudan","target":"Central African Republic"},
+        {"source":"Sudan","target":"Chad"},
+        {"source":"Sudan","target":"Democratic Republic of the Congo"},
+        {"source":"Sudan","target":"Egypt"},
+        {"source":"Sudan","target":"Eritrea"},
+        {"source":"Sudan","target":"Ethiopia"},
+        {"source":"Sudan","target":"Kenya"},
+        {"source":"Sudan","target":"Libya"},
+        {"source":"Sudan","target":"Uganda"},
+        {"source":"Suriname","target":"Brazil"},
+        {"source":"Suriname","target":"Guyana"},
+        {"source":"Sweden","target":"Denmark"},
+        {"source":"Sweden","target":"Finland"},
+        {"source":"Sweden","target":"Norway"},
+        {"source":"Switzerland","target":"Austria"},
+        {"source":"Switzerland","target":"France"},
+        {"source":"Switzerland","target":"Germany"},
+        {"source":"Switzerland","target":"Italy"},
+        {"source":"Switzerland","target":"Liechtenstein"},
+        {"source":"Syria","target":"Iraq"},
+        {"source":"Syria","target":"Israel"},
+        {"source":"Syria","target":"Jordan"},
+        {"source":"Syria","target":"Lebanon"},
+        {"source":"Syria","target":"Turkey"},
+        {"source":"Taiwan","target":"China"},
+        {"source":"Tajikistan","target":"Afghanistan"},
+        {"source":"Tajikistan","target":"China"},
+        {"source":"Tajikistan","target":"Kyrgyzstan"},
+        {"source":"Tajikistan","target":"Uzbekistan"},
+        {"source":"Tanzania","target":"Burundi"},
+        {"source":"Tanzania","target":"Democratic Republic of the Congo"},
+        {"source":"Tanzania","target":"Kenya"},
+        {"source":"Tanzania","target":"Malawi"},
+        {"source":"Tanzania","target":"Mozambique"},
+        {"source":"Tanzania","target":"Rwanda"},
+        {"source":"Tanzania","target":"Uganda"},
+        {"source":"Tanzania","target":"Zambia"},
+        {"source":"Thailand","target":"Cambodia"},
+        {"source":"Thailand","target":"Laos"},
+        {"source":"Thailand","target":"Malaysia"},
+        {"source":"Thailand","target":"Myanmar"},
+        {"source":"Timor-Leste","target":"Indonesia"},
+        {"source":"Togo","target":"Benin"},
+        {"source":"Togo","target":"Burkina Faso"},
+        {"source":"Togo","target":"Ghana"},
+        {"source":"Trinidad and Tobago","target":"Venezuela"},
+        {"source":"Tunisia","target":"Algeria"},
+        {"source":"Tunisia","target":"Libya"},
+        {"source":"Turkey","target":"Armenia"},
+        {"source":"Turkey","target":"Azerbaijan"},
+        {"source":"Turkey","target":"Bulgaria"},
+        {"source":"Turkey","target":"Cyprus"},
+        {"source":"Turkey","target":"Georgia"},
+        {"source":"Turkey","target":"Greece"},
+        {"source":"Turkey","target":"Iran"},
+        {"source":"Turkey","target":"Iraq"},
+        {"source":"Turkey","target":"Syria"},
+        {"source":"Turkmenistan","target":"Afghanistan"},
+        {"source":"Turkmenistan","target":"Iran"},
+        {"source":"Turkmenistan","target":"Kazakhstan"},
+        {"source":"Turkmenistan","target":"Uzbekistan"},
+        {"source":"Uganda","target":"Democratic Republic of the Congo"},
+        {"source":"Uganda","target":"Kenya"},
+        {"source":"Uganda","target":"Rwanda"},
+        {"source":"Uganda","target":"Sudan"},
+        {"source":"Uganda","target":"Tanzania"},
+        {"source":"Ukraine","target":"Belarus"},
+        {"source":"Ukraine","target":"Hungary"},
+        {"source":"Ukraine","target":"Moldova"},
+        {"source":"Ukraine","target":"Poland"},
+        {"source":"Ukraine","target":"Romania"},
+        {"source":"Ukraine","target":"Russia"},
+        {"source":"Ukraine","target":"Slovakia"},
+        {"source":"United Arab Emirates","target":"Oman"},
+        {"source":"United Arab Emirates","target":"Qatar"},
+        {"source":"United Arab Emirates","target":"Saudi Arabia"},
+        {"source":"United Kingdom","target":"France"},
+        {"source":"United Kingdom","target":"Ireland"},
+        {"source":"United States of America","target":"Canada"},
+        {"source":"United States of America","target":"Mexico"},
+        {"source":"United States of America","target":"Russia"},
+        {"source":"Uruguay","target":"Argentina"},
+        {"source":"Uruguay","target":"Brazil"},
+        {"source":"Uzbekistan","target":"Afghanistan"},
+        {"source":"Uzbekistan","target":"Kazakhstan"},
+        {"source":"Uzbekistan","target":"Kyrgyzstan"},
+        {"source":"Uzbekistan","target":"Tajikistan"},
+        {"source":"Uzbekistan","target":"Turkmenistan"},
+        {"source":"Venezuela","target":"Brazil"},
+        {"source":"Venezuela","target":"Colombia"},
+        {"source":"Venezuela","target":"Guyana"},
+        {"source":"Venezuela","target":"Trinidad and Tobago"},
+        {"source":"Vietnam","target":"Cambodia"},
+        {"source":"Vietnam","target":"China"},
+        {"source":"Vietnam","target":"Laos"},
+        {"source":"Yemen","target":"Djibouti"},
+        {"source":"Yemen","target":"Eritrea"},
+        {"source":"Yemen","target":"Oman"},
+        {"source":"Yemen","target":"Saudi Arabia"},
+        {"source":"Serbia","target":"Albania"},
+        {"source":"Serbia","target":"Bosnia and Herzegovina"},
+        {"source":"Serbia","target":"Bulgaria"},
+        {"source":"Serbia","target":"Croatia"},
+        {"source":"Serbia","target":"Hungary"},
+        {"source":"Serbia","target":"North Macedonia"},
+        {"source":"Serbia","target":"Montenegro"},
+        {"source":"Serbia","target":"Romania"},
+        {"source":"Zambia","target":"Angola"},
+        {"source":"Zambia","target":"Botswana"},
+        {"source":"Zambia","target":"Democratic Republic of the Congo"},
+        {"source":"Zambia","target":"Malawi"},
+        {"source":"Zambia","target":"Mozambique"},
+        {"source":"Zambia","target":"Namibia"},
+        {"source":"Zambia","target":"Tanzania"},
+        {"source":"Zambia","target":"Zimbabwe"},
+        {"source":"Zimbabwe","target":"Botswana"},
+        {"source":"Zimbabwe","target":"Mozambique"},
+        {"source":"Zimbabwe","target":"South Africa"},
+        {"source":"Zimbabwe","target":"Zambia"}
     ]
 }
