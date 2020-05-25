@@ -1,7 +1,7 @@
 window.onresize = drawGraph();
 const svg = d3.select('svg');
 function drawGraph() {
-    const height = window.innerHeight * 0.85;
+    const height = window.innerHeight * 1.5;
     const width = window.innerWidth * 0.95;
     const simulation = d3
         .forceSimulation()
@@ -14,15 +14,24 @@ function drawGraph() {
                 })
                 .distance(100)
         )
-        .force('charge', d3.forceManyBody().strength(-15))
-        .force('center', d3.forceCenter(width / 2, height / 2));
+        .force(
+            'charge',
+            d3.forceManyBody().strength(function (d) {
+                if (d.continent === undefined) {
+                    return -70;
+                } else {
+                    return -30;
+                }
+            })
+        )
+        .force('center', d3.forceCenter(width / 2, height / 2.5));
 
     drawSVG();
     drawContinents(simulation);
 }
 
 function drawSVG() {
-    const height = window.innerHeight * 0.85;
+    const height = window.innerHeight * 1.5;
     const width = window.innerWidth * 0.95;
 
     d3.select('#graphContainer')
@@ -30,7 +39,7 @@ function drawSVG() {
         .attr('width', width)
         .attr('height', height)
         .style('background', 'white')
-        .style('opacity', 0.3);
+        .style('opacity', 0.5);
 }
 
 function drawContinents(simulation) {
@@ -57,8 +66,40 @@ function drawContinents(simulation) {
 
         const circles = node
             .append('circle')
-            .attr('r', 25)
-            .attr('fill', 'red')
+            .attr('r', function (d) {
+                if (d.continent === undefined) {
+                    return 30;
+                } else {
+                    return 20;
+                }
+            })
+            .attr('fill', function (d) {
+                let color;
+                switch (d.continent) {
+                    case 'Europe':
+                        color = 'lightgreen';
+                        break;
+                    case 'Asia':
+                        color = 'yellow';
+                        break;
+                    case 'Oceania':
+                        color = 'green';
+                        break;
+                    case 'North America':
+                        color = 'cyan';
+                        break;
+                    case 'South America':
+                        color = 'pink';
+                        break;
+                    case 'Africa':
+                        color = 'lightgray';
+                        break;
+                }
+                if (d.continent === undefined) {
+                    color = 'red';
+                }
+                return color;
+            })
             .call(
                 d3
                     .drag()
